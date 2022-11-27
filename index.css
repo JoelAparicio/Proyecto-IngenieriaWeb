@@ -350,3 +350,53 @@ ul, ol {
 .equipo-inicio h1{
     padding: 1em;
 }
+
+/*T_Equipos*/  
+/*Continentes*/ 
+h1{
+  font-family: "Segoe UI";
+  padding: 10px;
+}
+
+.Continente{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.Continente-mapa h2{
+  font-family: "Segoe UI";
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+
+.Continente-Banderas{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.Continente-Banderas a{
+  text-decoration: none;
+}
+
+
+#Bandera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 5px;
+}
+
+  #Bandera img{
+    width: 180px; 
+    height: 130px;
+    border: solid;
+    border-color: #e8e8e8;
+  }
+
+  #Bandera p{
+    font-size: 125%;
+    font-family: "Segoe UI";
+    text-align: center;
+  }

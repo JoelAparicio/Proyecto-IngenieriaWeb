@@ -210,7 +210,78 @@
   [hidden] { 
     display: none;
   }
+
+/*Encabezado*/  
+header{
+  background-color: #8C0335;
+  padding: 0px 20px 0px 0px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+
+}
+
+/*Encabezado logo*/  
+  #encabezado-logo{
+    width: 300px;
+    height: 100px;
+    padding: 30px 0px 10px 20px;
+  }
+
+
+/*Encabezado imagen de usuario*/  
+  #menu-usuario{
+    width: 40px; 
+    height: 40px;
+    padding: 0px 40px 0px 50px;
+  }
+
+
+
+/*Encabezado menu desplegable*/  			
+ul, ol {
+  list-style:none;
+}
+
+.menu > li {
+  float:left;
+}
+
+.menu li a {
+  background-color:#8C0335;
+  font-size: 125%;
+  font-family: "Segoe UI";
+  color:#fff;
+  text-decoration:none;
+  padding:15px 12px;
+  display:block;
+}
+
+.menu li a:hover {
+  background-color:#500c25;
+}
+
+.menu li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+}
+
+.menu li:hover > ul {
+  display:block;
+  align-items: center;
+}
+
+.menu li ul li {
+  position:relative;
+  right: 40px;
+  top: 6px;
   
+}
+
+/*vainas de joel*/  
+
+
 .carrusel-noticias{
     display: flex;
     flex-direction: row;

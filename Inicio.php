@@ -10,12 +10,27 @@
 </head>
 <body>
     <header>
-        <div id="encabezado-logo">
-            <img scr="Imagenes/inicio/logo.png">
+
+        <div>
+            <img src="Imagenes/Otros/logo.png" id="encabezado-logo">
         </div>
         <nav>
-
+            <ul  class="menu">
+                <li><a href="Inicio.php">Inicio</a></li>
+                <li><a href="T_Equipos.php">Equipos</a></li>
+                <li><a href="Resultados.php">Resultados</a></li>
+                <li><a href="T_Posiciones.php">Posiciones</a></li>
+                <li><a href="Favoritos.php">Favoritos</a></li>
+                <li>
+                    <img src="Imagenes/Otros/usuario.png" id="menu-usuario">
+                    <ul>
+                        <li><a href="">Registrar</a></li>
+                        <li><a href="">Iniciar sesión</a></li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
+
     </header>
 
     <div class="carrusel-noticias">

@@ -61,8 +61,8 @@
         
     </div>
 
-    <div>
-        
+    <div class="partidos-recientes">
+
     </div>
     
 </body>

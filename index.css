@@ -321,35 +321,27 @@ ul, ol {
 /*Partidos recientes-Inicio*/
 
 .partidos-recientes{
-    text-align: center;
-    background-color: #e2e5ec;
-}
-.tiempo-inicio{
-   text-align: right;
-   padding-right: 50px;
-}
-.enfrentamiento-inicio{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
-    height: 100%;
-}
-.equipo-inicio{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 7%;
-}
-.bandera-inicio{
-    height: 22vh;
-    width: 22vw;
-    object-fit: cover;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
     
 }
-.equipo-inicio h1{
-    padding: 1em;
+.tiempo-inicio{
+  
 }
+.enfrentamiento-inicio{
+    
+}
+.equipo-inicio{
+    
+}
+.bandera-inicio{
+    
+    
+}
+
 
 /*T_Equipos*/  
 /*Continentes*/ 

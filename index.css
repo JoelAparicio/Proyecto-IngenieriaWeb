@@ -245,4 +245,5 @@
     border-radius: 2%;
     box-shadow: 9.91px 9.91px 16px #b8c0cf, -9.91px -9.91px 16px #e4ecfc;
     transform: scale(1.05);
+    transition: transform ;
 }

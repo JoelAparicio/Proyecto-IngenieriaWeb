@@ -290,10 +290,11 @@ ul, ol {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     scroll-snap-align: center;
+    padding: 30px 0px 0px 0px;
 
     background: linear-gradient(145deg, #FFFFFF, #C1C3C6);
     border-radius: 1%;
-    box-shadow: 9.91px 9.91px 16px #B3B4B7, -9.91px -9.91px 16px #FFFFFF;
+    
 
 }
 .card{

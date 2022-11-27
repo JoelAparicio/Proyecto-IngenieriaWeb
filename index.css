@@ -278,10 +278,9 @@ ul, ol {
   top: 6px;
   
 }
+/*Encabezado*/  
 
-/*vainas de joel*/  
-
-
+/*Noticias-Inicio*/  
 .carrusel-noticias{
     display: flex;
     flex-direction: row;
@@ -294,7 +293,6 @@ ul, ol {
 
     background: linear-gradient(145deg, #FFFFFF, #C1C3C6);
     border-radius: 1%;
-    
 
 }
 .card{
@@ -302,7 +300,6 @@ ul, ol {
     margin: 1.3em;
     width: 20%;
     
-
     background: linear-gradient(145deg, #B3BACA, #F2FCFF);
     border-radius: 2%;
     box-shadow: 9.91px 9.91px 16px #C2CBDC, -9.91px -9.91px 16px #E2EBFF;
@@ -317,5 +314,6 @@ ul, ol {
     border-radius: 2%;
     box-shadow: 9.91px 9.91px 16px #b8c0cf, -9.91px -9.91px 16px #e4ecfc;
     transform: scale(1.05);
-    transition: transform ;
 }
+/*Noticias-Inicio*/ 
+

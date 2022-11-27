@@ -10,7 +10,6 @@
 </head>
 <body>
     <header>
-
         <div>
             <img src="Imagenes/Otros/logo.png" id="encabezado-logo">
         </div>
@@ -30,7 +29,6 @@
                 </li>
             </ul>
         </nav>
-
     </header>
 
     <div class="carrusel-noticias">
@@ -61,7 +59,10 @@
             <img src="https://phantom-marca.unidadeditorial.es/1eabf9af319ccd8314e9533ed32ffb75/resize/1320/f/webp/assets/multimedia/imagenes/2022/11/25/16694087916622.jpg" alt="imagen" class="imagen-noticia">
         </div>
         
+    </div>
 
+    <div>
+        
     </div>
     
 </body>

@@ -62,7 +62,21 @@
     </div>
 
     <div class="partidos-recientes">
-
+        <h2>Partidos recientes</h2>
+        <p class="tiempo-inicio">Tiempo:93 min</p>
+        <div class="enfrentamiento-inicio">
+            <div class="equipo-inicio">
+                <img src="Imagenes\Continente_Equipos\America\Uruguay\Bandera Uruguay.png" alt="Uruguay" class="bandera-inicio">
+                <h1>2</h1>
+            </div>
+            <div class="equipo-inicio">
+                <h1>VS</h1>
+            </div>
+            <div class="equipo-inicio">
+                <h1>3</h1>
+                <img src="Imagenes\Continente_Equipos\America\México\Bandera México.png" alt="Mexico" class="bandera-inicio">
+            </div>
+        </div>
     </div>
     
 </body>

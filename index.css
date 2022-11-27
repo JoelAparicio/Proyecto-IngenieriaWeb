@@ -230,8 +230,6 @@
     margin: 1.3em;
     width: 20%;
     
-    
-
 
     background: linear-gradient(145deg, #B3BACA, #F2FCFF);
     border-radius: 2%;
@@ -240,4 +238,11 @@
 .imagen-noticia{
     height: 25vh;
     object-fit: cover;
+}
+
+.card:hover{
+    background: linear-gradient(145deg, #b4bdd2, #cfeef7);
+    border-radius: 2%;
+    box-shadow: 9.91px 9.91px 16px #b8c0cf, -9.91px -9.91px 16px #e4ecfc;
+    transform: scale(1.05);
 }

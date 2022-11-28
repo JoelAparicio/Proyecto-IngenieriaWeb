@@ -24,11 +24,9 @@
                 <li><a href="T_Posiciones.php">Posiciones</a></li>
                 <li><a href="Clasificacion.php">Clasificaciones</a></li>
                 <li><a href="Favoritos.php">Favoritos</a></li>
-                <li><?php echo "<a>Bienvenido $usuario<a/>";?>                 
+                <li><a>Bienvenid@ <?= $usuario?></a>                
                     <ul class="submenu">
-                        <li><a href="Inicio.php">Cerrar Sesión</a>
-                            <?php unset($_SESSION['usuario']);?>
-                        </li>
+                        <li><a href="Inicio.php">Cerrar Sesión</a><?php unset($_SESSION['usuario']);?></li>
                     </ul>
                 </li>
             </ul>

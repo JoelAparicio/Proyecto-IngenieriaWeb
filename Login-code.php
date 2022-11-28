@@ -9,7 +9,7 @@ if(isset($_POST['inicio-sesion'])){
     if($filas > 0){
         session_start();
         $_SESSION['usuario'] = "$usuario";
-        header("location:http://localhost/ingenieriaweb/Proyecto-IngenieriaWeb/Inicio_Usuario.php");
+        header("location:http://localhost/ingenieriaweb/Proyecto-IngenieriaWeb/Usuario/Inicio_Usuario.php");
         exit();
         mysqli_close($conn);
     }

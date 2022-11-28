@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clasificacion</title>
-    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="../index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <?php
+    session_start(); 
+    $usuario = $_SESSION['usuario'];
+    ?>
     <header>
         <div>
-            <img src="Imagenes/Otros/logo.png" id="encabezado-logo">
+        <img src="../Imagenes/Otros/logo.png" id="encabezado-logo">
         </div>
         <nav>
             <ul  class="menu">
-                <li><a href="Inicio.php">Inicio</a></li>
-                <li><a href="T_Equipos.php">Equipos</a></li>
-                <li><a href="Resultados.php">Resultados</a></li>
-                <li><a href="T_Posiciones.php">Posiciones</a></li>
-                <li><a href="Clasificacion.php">Clasificaciones</a></li>
-                <li>
-                    <img src="Imagenes/Otros/usuario.png" id="menu-usuario">
-                    <ul>
-                        <li><a href="Registrar.php">Registrar</a></li>
-                        <li><a href="Login.php">Iniciar sesión</a></li>
+                <li><a href="Inicio_Usuario.php">Inicio</a></li>
+                <li><a href="T_Equipos_Usuario.php">Equipos</a></li>
+                <li><a href="Resultados_Usuario.php">Resultados</a></li>
+                <li><a href="T_Posiciones_Usuario.php">Posiciones</a></li>
+                <li><a href="Clasificacion_Usuario.php">Clasificaciones</a></li>
+                <li><a href="Favoritos.php">Favoritos</a></li>
+                <li><a>Bienvenid@ <?= $usuario?></a>                
+                    <ul class="submenu">
+                        <li><a href="cerrar_sesion.php?cerrar=yes">Cerrar Sesión</a></li>
                     </ul>
                 </li>
             </ul>
@@ -38,7 +41,7 @@
                     <table class="tabla">
                         <tr>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                             <td>Celda</td>
 
@@ -46,7 +49,7 @@
 
                             <td>Celda</td>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -56,7 +59,7 @@
                     <table class="tabla">
                         <tr>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                             <td>Celda</td>
 
@@ -64,7 +67,7 @@
 
                             <td>Celda</td>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -76,7 +79,7 @@
 
                         <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         <td>Celda</td>
 
@@ -84,7 +87,7 @@
 
                         <td>Celda</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -98,7 +101,7 @@
                     <table class="tabla">
                         <tr>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                             <td>Celda</td>
 
@@ -106,7 +109,7 @@
 
                             <td>Celda</td>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -116,7 +119,7 @@
                     <table class="tabla">
                         <tr>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                             <td>Celda</td>
 
@@ -124,7 +127,7 @@
 
                             <td>Celda</td>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -136,7 +139,7 @@
 
                         <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         <td>Celda</td>
 
@@ -144,7 +147,7 @@
 
                         <td>Celda</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -161,7 +164,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         <td>Celda</td>
 
@@ -169,7 +172,7 @@
 
                         <td>Celda</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                     </tr>
                 </table>
@@ -179,7 +182,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         <td>Celda</td>
 
@@ -187,7 +190,7 @@
 
                         <td>Celda</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                     </tr>
                 </table>
@@ -199,7 +202,7 @@
 
                     <tr>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                    <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                     <td>Celda</td>
 
@@ -207,7 +210,7 @@
 
                     <td>Celda</td>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                    <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                     </tr>
                 </table>
@@ -222,7 +225,7 @@
                     <table class="tabla">
                         <tr>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                             <td>Celda</td>
 
@@ -230,7 +233,7 @@
 
                             <td>Celda</td>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -240,7 +243,7 @@
                     <table class="tabla">
                         <tr>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                             <td>Celda</td>
 
@@ -248,7 +251,7 @@
 
                             <td>Celda</td>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -260,7 +263,7 @@
 
                         <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         <td>Celda</td>
 
@@ -268,7 +271,7 @@
 
                         <td>Celda</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -282,7 +285,7 @@
                     <table class="tabla">
                         <tr>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                             <td>Celda</td>
 
@@ -290,7 +293,7 @@
 
                             <td>Celda</td>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -300,7 +303,7 @@
                     <table class="tabla">
                         <tr>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                             <td>Celda</td>
 
@@ -308,7 +311,7 @@
 
                             <td>Celda</td>
 
-                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -320,7 +323,7 @@
 
                         <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         <td>Celda</td>
 
@@ -328,7 +331,7 @@
 
                         <td>Celda</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="../Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>

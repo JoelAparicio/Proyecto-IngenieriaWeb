@@ -19,7 +19,6 @@
                 <li><a href="Resultados.php">Resultados</a></li>
                 <li><a href="T_Posiciones.php">Posiciones</a></li>
                 <li><a href="Clasificacion.php">Clasificaciones</a></li>
-                <li><a href="Favoritos.php">Favoritos</a></li>
                 <li>
                     <img src="Imagenes/Otros/usuario.png" id="menu-usuario">
                     <ul>

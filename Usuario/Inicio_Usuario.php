@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="../index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <?php
@@ -14,19 +14,19 @@
     ?>
     <header>
         <div>
-            <img src="Imagenes/Otros/logo.png" id="encabezado-logo">
+        <img src="../Imagenes/Otros/logo.png" id="encabezado-logo">
         </div>
         <nav>
             <ul  class="menu">
-                <li><a href="Inicio.php">Inicio</a></li>
-                <li><a href="T_Equipos.php">Equipos</a></li>
-                <li><a href="Resultados.php">Resultados</a></li>
-                <li><a href="T_Posiciones.php">Posiciones</a></li>
-                <li><a href="Clasificacion.php">Clasificaciones</a></li>
+                <li><a href="Inicio_Usuario.php">Inicio</a></li>
+                <li><a href="T_Equipos_Usuario.php">Equipos</a></li>
+                <li><a href="Resultados_Usuario.php">Resultados</a></li>
+                <li><a href="T_Posiciones_Usuario.php">Posiciones</a></li>
+                <li><a href="Clasificacion_Usuario.php">Clasificaciones</a></li>
                 <li><a href="Favoritos.php">Favoritos</a></li>
                 <li><a>Bienvenid@ <?= $usuario?></a>                
                     <ul class="submenu">
-                        <li><a href="Inicio.php">Cerrar Sesión</a><?php unset($_SESSION['usuario']);?></li>
+                        <li><a href="cerrar_sesion.php?cerrar=yes">Cerrar Sesión</a></li>
                     </ul>
                 </li>
             </ul>
@@ -69,7 +69,7 @@
 
         <div class="enfrentamiento-inicio">
             <div class="equipo-inicio">
-                <img src="Imagenes\Continente_Equipos\America\Uruguay\Bandera Uruguay.png" alt="Uruguay" class="bandera-inicio">
+                <img src="../Imagenes\Continente_Equipos\America\Uruguay\Bandera Uruguay.png" alt="Uruguay" class="bandera-inicio">
                 <h1>2</h1>
             </div>
             <div class="equipo-inicio">
@@ -77,7 +77,7 @@
             </div>
             <div class="equipo-inicio">
                 <h1>3</h1>
-                <img src="Imagenes\Continente_Equipos\America\México\Bandera México.png" alt="Mexico" class="bandera-inicio">
+                <img src="../Imagenes\Continente_Equipos\America\México\Bandera México.png" alt="Mexico" class="bandera-inicio">
             </div>
         </div>
         <div class="info-inicio">

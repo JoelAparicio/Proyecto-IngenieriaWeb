@@ -447,6 +447,7 @@ h1{
 .contenedor-principal{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  width: 100%;
 }
 
 
@@ -475,8 +476,8 @@ h1{
 }
 
   #Iarriba{
-    top: 0px;
-    left: 1200px;
+    top: 0em;
+    left: 1em;
     
   }
 
@@ -488,45 +489,45 @@ h1{
 .contenedor{
   text-align: center;
   border: solid;
-  width: 250px;
-  padding: 5px;
-  border-radius: 10px;
+  width: 15em;
+  padding: 0.5em;
+  border-radius: 1em;
   background-color: #ffffff;
   z-index: 2;
 }
 
   .contenedor p{
-    margin: 10px 0px 0px 0px;
+    margin: 1em 0em 0em 0em;
 
   }
 
   #posicion1{
     position: absolute;
-    left: 10px;
-    top: 20px;
+    left: 0.6em;
+    top: 1em;
 
   }
 
   #Dposicion2{
     position: absolute;
-    left: 200px;
-    top: 120px;
+    left: 12.5em;
+    top: 9.3em;
 
     
   }
 
   #Iposicion2{
     position: absolute;
-    left: -180px;
-    top: 120px;
+    left: -0.6em;
+    top: 1em;
 
     
   }
 
   #posicion3{
     position: absolute;
-    left: 10px;
-    top: 220px;
+    left: 0.6em;
+    top: 17.5em;
     
   }
 
@@ -553,31 +554,31 @@ h1{
     
   }
 .tabla{
-  border: solid;
+  font-size: 100%;
+  font-family: "Segoe UI";
 }
 
   .tabla td{
-    width: 25px;
-    border: solid;
-    
-    
+    width: 4em;
+    height: 2em;
   }
 
   .tabla img{
-    width: 50px;
-    height: 25px;
+    width: 3vw;
+    height: 5vh;
+    object-fit: cover;
   }
 
 #Linea-iqz{
   position: absolute;
-  border-radius: 0px 5px 0px 0px;
   border: solid#500c25 ;
-  border-width: 5px 5px 5px 0px;
-  width: 50px;
-  height: 195px;
+  border-radius: 0.5em;
+  border-width: 0.3em 0.3em 0.3em 0em;
+  width: 10em;
+  height: 16em;
   z-index: 1;
-  top: 65px;
-  left: 272px;
+  top: 4em;
+  left: 10.5em;
 }
 
 #Linea-der{
@@ -639,6 +640,7 @@ h1{
   top: 200px;
   left: 725px;
 }
+
 #Bandera p{
   font-size: 125%;
   font-family: "Segoe UI";

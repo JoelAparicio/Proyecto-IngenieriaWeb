@@ -40,11 +40,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td>vs</td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -52,17 +52,18 @@
                     </table>
                     <p>Info</p>
                 </div>
+            
                 <div class="contenedor" id="Dposicion2">
                     <table class="tabla">
                         <tr>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td>vs</td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -78,11 +79,11 @@
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                        <td>Celda</td>
+                        <td style="border: solid;">Celda</td>
 
                         <td>vs</td>
 
-                        <td>Celda</td>
+                        <td style="border: solid;">Celda</td>
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -90,8 +91,9 @@
                     </table>
                     <p>Info</p>
                 </div>
-            </div>
 
+            </div>
+            
             <div class="Ronda16-Derecha" id="Dabajo">
                 <rect id="Linea-iqz"></rect>
                 <div class="contenedor" id="posicion1">
@@ -100,11 +102,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td>vs</td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -118,11 +120,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td>vs</td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -138,11 +140,11 @@
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                        <td>Celda</td>
+                        <td style="border: solid;">Celda</td>
 
                         <td>vs</td>
 
-                        <td>Celda</td>
+                        <td style="border: solid;">Celda</td>
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -151,7 +153,7 @@
                     <p>Info</p>
                 </div>
             </div>
-        </div>
+        </div><!--
         
         <div class="subconteendor">
             <rect id="Linea-der-centro"></rect>
@@ -163,11 +165,11 @@
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                        <td>Celda</td>
+                        <td style="border: solid;">Celda</td>
 
                         <td>vs</td>
 
-                        <td>Celda</td>
+                        <td style="border: solid;">Celda</td>
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -181,11 +183,11 @@
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                        <td>Celda</td>
+                        <td style="border: solid;">Celda</td>
 
                         <td>vs</td>
 
-                        <td>Celda</td>
+                        <td style="border: solid;">Celda</td>
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -201,11 +203,11 @@
 
                     <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                    <td>Celda</td>
+                    <td style="border: solid;">Celda</td>
 
                     <td>vs</td>
 
-                    <td>Celda</td>
+                    <td style="border: solid;">Celda</td>
 
                     <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -224,11 +226,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td>vs</td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -242,11 +244,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td>vs</td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -262,11 +264,11 @@
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                        <td>Celda</td>
+                        <td style="border: solid;">Celda</td>
 
                         <td>vs</td>
 
-                        <td>Celda</td>
+                        <td style="border: solid;">Celda</td>
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -275,7 +277,7 @@
                     <p>Info</p>
                 </div>
             </div>
-
+            
             <div class="Ronda16-Izquierda" id="Iabajo">
                 <rect id="Linea-der"></rect>
                 <div class="contenedor" id="posicion1">
@@ -284,11 +286,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td>vs</td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -302,11 +304,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td>vs</td>
 
-                            <td>Celda</td>
+                            <td style="border: solid;">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -322,11 +324,11 @@
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                        <td>Celda</td>
+                        <td style="border: solid;">Celda</td>
 
                         <td>vs</td>
 
-                        <td>Celda</td>
+                        <td style="border: solid;">Celda</td>
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -334,8 +336,8 @@
                     </table>
                     <p>Info</p>
                 </div>
-            </div>
-        </div>
+            </div> 
+        </div> -->
     </div>
 </body>
 </html>

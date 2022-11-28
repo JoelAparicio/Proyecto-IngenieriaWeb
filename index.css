@@ -385,11 +385,16 @@ footer{
   font-family: "Segoe UI";
 }
 .footer-izquierda{
-  width: 50%;
+  width: 33%;
+  float: left;
+}
+.footer-centro{
+  width: 33%;
   float: left;
 }
 .footer-derecha{
-  width: 50%;
+  width: 33%;
+  float: right;
 }
 /*footer*/
 
@@ -759,3 +764,13 @@ h1{
   background-color: white;
   color:rgb(0, 0, 0);
 }
+
+/*Favoritos*/
+#Favoritos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 5px;
+}
+/*Favoritos*/

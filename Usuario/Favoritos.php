@@ -32,7 +32,7 @@
             </ul>
         </nav>
     </header>
-    <div id="Bandera"> <a href="">
+    <div id="Favoritos"> <a href="">
         <img src="../Imagenes/Continente_Equipos/America/Brazil/Bandera Brazil.png">
         </a>
         <h1>Brasil</h1>

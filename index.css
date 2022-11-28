@@ -442,3 +442,198 @@ h1{
     font-family: "Segoe UI";
     text-align: center;
   }
+.contenedor-principal{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+
+.subconteendor{
+  display: grid;
+  grid-template-rows: auto auto;
+
+}
+
+  .Ronda16-Derecha{
+    position: relative;
+
+  }
+
+    #Darriba{
+      top: 100px;
+
+    }
+    #Dabajo{
+      top: 510px;
+
+    }
+
+.Ronda16-Izquierda{
+  position: relative;
+}
+
+  #Iarriba{
+    top: 0px;
+    left: 1200px;
+    
+  }
+
+  #Iabajo{
+    top: 510px;
+    
+  }
+
+.contenedor{
+  text-align: center;
+  border: solid;
+  width: 250px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+  .contenedor p{
+    margin: 10px 0px 0px 0px;
+
+  }
+
+  #posicion1{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+  }
+
+  #Dposicion2{
+    position: absolute;
+    left: 200px;
+    top: 120px;
+
+    
+  }
+
+  #Iposicion2{
+    position: absolute;
+    left: -180px;
+    top: 120px;
+
+    
+  }
+
+  #posicion3{
+    position: absolute;
+    left: 10px;
+    top: 220px;
+    
+  }
+
+  #Cposicion1{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+
+  }
+
+  #Cposicion2{
+    position: absolute;
+    left: 400px;
+    top: 380px;
+
+    
+  }
+
+  #Cposicion3{
+    position: absolute;
+    left: 820px;
+    top: 380px;
+
+    
+  }
+.tabla{
+  border: solid;
+}
+
+  .tabla td{
+    width: 25px;
+    border: solid;
+    
+    
+  }
+
+  .tabla img{
+    width: 50px;
+    height: 25px;
+  }
+
+#Linea-iqz{
+  position: absolute;
+  border-radius: 0px 5px 0px 0px;
+  border: solid#500c25 ;
+  border-width: 5px 5px 5px 0px;
+  width: 50px;
+  height: 195px;
+  z-index: 1;
+  top: 65px;
+  left: 272px;
+}
+
+#Linea-der{
+  position: absolute;
+  border-radius: 0px 5px 0px 0px;
+  border: solid#500c25 ;
+  border-width: 5px 0px 5px 5px;
+  width: 60px;
+  height: 200px;
+  z-index: 1;
+  top: 60px;
+  left: -50px;
+}
+
+#Linea-der-centro{
+  position: absolute;
+  border-radius: 0px 5px 0px 0px;
+  border: solid#500c25 ;
+  border-width: 5px 5px 5px 0px;
+  width: 65px;
+  height: 505px;
+  z-index: 1;
+  top: 165px;
+  left: 465px;
+}
+
+#Linea-izq-centro{
+  position: absolute;
+  border-radius: 0px 5px 0px 0px;
+  border: solid#500c25 ;
+  border-width: 5px 0px 5px 5px;
+  width: 65px;
+  height: 505px;
+  z-index: 1;
+  top: 165px;
+  left: 952px;
+}
+
+#Linea-1{
+  position: absolute;
+  border-radius: 0px 5px 0px 0px;
+  border: solid#500c25 ;
+  border-width: 0px 0px 5px 0px;
+  width: 300px;
+  height: 0px;
+  z-index: 1;
+  top: 425px;
+  left: 600px;
+}
+
+#Linea-2{
+  position: absolute;
+  border-radius: 0px 5px 0px 0px;
+  border: solid#500c25 ;
+  border-width: 0px 0px 0px 5px;
+  width: 0px;
+  height: 226px;
+  z-index: 1;
+  top: 200px;
+  left: 725px;
+}

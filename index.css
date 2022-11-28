@@ -445,8 +445,7 @@ h1{
   }
 
 .contenedor-principal{
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  display: flex;
   width: 100%;
 }
 
@@ -454,7 +453,7 @@ h1{
 
   .Ronda16-Izquierda{
     position: relative;
-    left: 1em;
+    left: 2em;
 
   }
 
@@ -474,7 +473,7 @@ h1{
 
     #Darriba{
       top: 0em;
-      left: 92em;
+      left: 90em;
       
     }
 
@@ -496,6 +495,14 @@ h1{
   .contenedor p{
     margin: 1em 0em 0em 0em;
     font-size: 100%;
+    font-family: "Segoe UI";
+
+  }
+
+  .contenedor h1{
+    margin: 0em;
+    padding: 0em;
+    font-size: 2em;
     font-family: "Segoe UI";
 
   }
@@ -533,7 +540,7 @@ h1{
   #Cposicion1{
     position: absolute;
     left: 45em;
-    top: 15em;
+    top: 10em;
 
   }
 
@@ -549,9 +556,14 @@ h1{
     position: absolute;
     left: 60em;
     top: 24.3em;
-
-    
   }
+
+  #Cposicion4{
+    position: absolute;
+    left: 45em;
+    top: 40em;
+  }
+
 .tabla{
   font-size: 70%;
   font-family: "Segoe UI";
@@ -634,7 +646,7 @@ h1{
   border: solid#500c25 ;
   border-width: 0em  0em  0em  0.3em ;
   width: 0em;
-  height: 9.2em;
+  height: 25em;
   z-index: 1;
   top: 18em;
   left: 51.5em;

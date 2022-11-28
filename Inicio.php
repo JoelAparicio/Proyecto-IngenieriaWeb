@@ -62,25 +62,54 @@
     </div>
 
     <div class="partidos-recientes">
-        <h2>Partidos recientes</h2>
+        <h2 class="recientes-inicio">Partidos recientes</h2>
         <p class="tiempo-inicio">Tiempo:93 min</p>
+
         <div class="enfrentamiento-inicio">
             <div class="equipo-inicio">
                 <img src="Imagenes\Continente_Equipos\America\Uruguay\Bandera Uruguay.png" alt="Uruguay" class="bandera-inicio">
                 <h1>2</h1>
             </div>
             <div class="equipo-inicio">
-                <h1>VS</h1>
+                <p>VS</p>
             </div>
             <div class="equipo-inicio">
                 <h1>3</h1>
                 <img src="Imagenes\Continente_Equipos\America\México\Bandera México.png" alt="Mexico" class="bandera-inicio">
             </div>
         </div>
+        <div class="info-inicio">
+            <div class="info-inicio-1">
+                <p>Jugador 1  89'</p>
+                <p>Jugador 2  90'</p>
+            </div>
+            <div class="info-inicio-2">
+                <p>Jugador 1  89'</p>
+                <p>Jugador 2  90'</p>
+            </div>
+        </div>
+
     </div>
 
     <footer>
-        
+        <div class="footer">
+            <div class="footer-izquierda">
+                <h2>Información</h2>
+                <ul>
+                    <li><a href="">Acerca de</a></li>
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="">Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-derecha">
+                <h2>Redes sociales</h2>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
     
 </body>

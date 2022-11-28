@@ -272,7 +272,7 @@ ul, ol {
     padding: 30px 0px 0px 0px;
 
     background: linear-gradient(145deg, #FFFFFF, #C1C3C6);
-    border-radius: 1%;
+    
 
 }
 .card{
@@ -301,13 +301,84 @@ ul, ol {
 /*Partidos recientes-Inicio*/
 
 .partidos-recientes{
-  width: 90%;
-  max-width: 1000px;
-  margin: 20px auto;
+  text-align: center;
+  width: 100%;
+  background: linear-gradient(145deg, #FFFFFF, #C1C3C6);
+  
+}
+.recientes-inicio{
+  padding: 30px 0px 0px 0px;
+  font-size: 200%;
+  margin: 0;
+  
+}
+.tiempo-inicio{
+  text-align: right;
+  padding-right: 50px;
+  font-size: 25px;
+}
+.enfrentamiento-inicio{
   display: grid;
-  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  
+}
+.equipo-inicio{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+  margin: 20px;
+  
+}
+.equipo-inicio h1{
+  font-size: 75px;
+  margin: 5%;
+  
+}
+.equipo-inicio p{
+  
+  font-size: 50px;
+}
+.bandera-inicio{
+  height: 20vh;
+  width: 20vw;
+  object-fit: cover;
+}
+.info-inicio{
+  width: 100%;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+    
+}
+.info-inicio-1{
+  justify-self: start;
+}
+.info-inicio-2{
+  justify-self: end;
+}
+.info-inicio p{
+  margin-top: 0px;
+  padding: 0px 50px 0px 50px;
 }
 /*Partidos recientes-Inicio*/
+
+/*footer*/
+footer{
+  background-color: #8C0335;
+  color: #fff;
+  padding: 0px 20px 0px 20px;
+  display: grid;
+}
+.footer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/*footer*/
 
 
 /*T_Equipos*/  

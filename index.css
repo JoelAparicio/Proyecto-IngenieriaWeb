@@ -378,6 +378,18 @@ footer{
   flex-direction: row;
   justify-content: space-around;
 }
+.footer a, h2{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Segoe UI";
+}
+.footer-izquierda{
+  width: 50%;
+  float: left;
+}
+.footer-derecha{
+  width: 50%;
+}
 /*footer*/
 
 

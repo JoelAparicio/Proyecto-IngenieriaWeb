@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link href="index.css" rel="stylesheet" type="text/css">
-    
 </head>
 <body>
     <header>
@@ -94,9 +93,9 @@
     <footer>
         <div class="footer">
             <div class="footer-izquierda">
-                <h2>Información</h2>
+                <h2>INFROMACIÓN</h2>
                 <ul>
-                    <li><a href="">Acerca de</a></li>
+                    <li><a href="">Política de Privacidad</a></li>
                     <li><a href="">Contacto</a></li>
                     <li><a href="">Privacidad</a></li>
                 </ul>
@@ -104,9 +103,9 @@
             <div class="footer-derecha">
                 <h2>Redes sociales</h2>
                 <ul>
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">Twitter</a></li>
-                    <li><a href="">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/fifaworldcup/">Facebook</a></li>
+                    <li><a href="https://twitter.com/fifaworldcup_es?s=20&t=7pAMHjlye3yMIuUrXqjx6g">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/copamundo_2022/?hl=es">Instagram</a></li>
                 </ul>
             </div>
         </div>

@@ -29,5 +29,313 @@
             </ul>
         </nav>
     </header>
+
+    <div class="contenedor-principal">
+        <div class="subconteendor">
+            <div class="Ronda16-Derecha" id="Darriba">
+                <rect id="Linea-iqz"></rect>
+                <div class="contenedor" id="posicion1">
+                    <table class="tabla">
+                        <tr>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                            <td>Celda</td>
+
+                            <td>vs</td>
+
+                            <td>Celda</td>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        </tr>
+                    </table>
+                    <p>Info</p>
+                </div>
+                <div class="contenedor" id="Dposicion2">
+                    <table class="tabla">
+                        <tr>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                            <td>Celda</td>
+
+                            <td>vs</td>
+
+                            <td>Celda</td>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        </tr>
+                    </table>
+                    <p>Info</p>
+                </div>
+                <div>
+                <div class="contenedor" id="posicion3">
+                    <table class="tabla">
+
+                        <tr>
+
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        <td>Celda</td>
+
+                        <td>vs</td>
+
+                        <td>Celda</td>
+
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        </tr>
+                    </table>
+                    <p>Info</p>
+                </div>
+            </div>
+
+            <div class="Ronda16-Derecha" id="Dabajo">
+                <rect id="Linea-iqz"></rect>
+                <div class="contenedor" id="posicion1">
+                    <table class="tabla">
+                        <tr>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                            <td>Celda</td>
+
+                            <td>vs</td>
+
+                            <td>Celda</td>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        </tr>
+                    </table>
+                    <p>Info</p>
+                </div>
+                <div class="contenedor" id="Dposicion2">
+                    <table class="tabla">
+                        <tr>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                            <td>Celda</td>
+
+                            <td>vs</td>
+
+                            <td>Celda</td>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        </tr>
+                    </table>
+                    <p>Info</p>
+                </div>
+                <div>
+                <div class="contenedor" id="posicion3">
+                    <table class="tabla">
+
+                        <tr>
+
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        <td>Celda</td>
+
+                        <td>vs</td>
+
+                        <td>Celda</td>
+
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        </tr>
+                    </table>
+                    <p>Info</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="subconteendor">
+            <rect id="Linea-der-centro"></rect>
+            <rect id="Linea-izq-centro"></rect>
+            <rect id="Linea-1"></rect><rect id="Linea-2"></rect>
+            <div class="contenedor" id="Cposicion1">
+                <table class="tabla">
+                    <tr>
+
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        <td>Celda</td>
+
+                        <td>vs</td>
+
+                        <td>Celda</td>
+
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                    </tr>
+                </table>
+                <p>Info</p>
+            </div>
+            <div class="contenedor" id="Cposicion2">
+                <table class="tabla">
+                    <tr>
+
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        <td>Celda</td>
+
+                        <td>vs</td>
+
+                        <td>Celda</td>
+
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                    </tr>
+                </table>
+                <p>Info</p>
+            </div>
+                
+            <div class="contenedor" id="Cposicion3">
+                <table class="tabla">
+
+                    <tr>
+
+                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                    <td>Celda</td>
+
+                    <td>vs</td>
+
+                    <td>Celda</td>
+
+                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                    </tr>
+                </table>
+                <p>Info</p>
+            </div>
+        </div>
+
+        <div class="subconteendor">
+            <div class="Ronda16-Izquierda" id="Iarriba">
+                <rect id="Linea-der"></rect>
+                <div class="contenedor" id="posicion1">
+                    <table class="tabla">
+                        <tr>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                            <td>Celda</td>
+
+                            <td>vs</td>
+
+                            <td>Celda</td>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        </tr>
+                    </table>
+                    <p>Info</p>
+                </div>
+                <div class="contenedor" id="Iposicion2">
+                    <table class="tabla">
+                        <tr>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                            <td>Celda</td>
+
+                            <td>vs</td>
+
+                            <td>Celda</td>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        </tr>
+                    </table>
+                    <p>Info</p>
+                </div>
+                <div>
+                <div class="contenedor" id="posicion3">
+                    <table class="tabla">
+
+                        <tr>
+
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        <td>Celda</td>
+
+                        <td>vs</td>
+
+                        <td>Celda</td>
+
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        </tr>
+                    </table>
+                    <p>Info</p>
+                </div>
+            </div>
+
+            <div class="Ronda16-Izquierda" id="Iabajo">
+                <rect id="Linea-der"></rect>
+                <div class="contenedor" id="posicion1">
+                    <table class="tabla">
+                        <tr>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                            <td>Celda</td>
+
+                            <td>vs</td>
+
+                            <td>Celda</td>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        </tr>
+                    </table>
+                    <p>Info</p>
+                </div>
+                <div class="contenedor" id="Iposicion2">
+                    <table class="tabla">
+                        <tr>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                            <td>Celda</td>
+
+                            <td>vs</td>
+
+                            <td>Celda</td>
+
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        </tr>
+                    </table>
+                    <p>Info</p>
+                </div>
+                <div>
+                <div class="contenedor" id="posicion3">
+                    <table class="tabla">
+
+                        <tr>
+
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        <td>Celda</td>
+
+                        <td>vs</td>
+
+                        <td>Celda</td>
+
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+
+                        </tr>
+                    </table>
+                    <p>Info</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

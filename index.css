@@ -430,18 +430,19 @@ h1{
   padding: 5px;
 }
 
-  #Bandera img{
-    width: 180px; 
-    height: 130px;
-    border: solid;
-    border-color: #e8e8e8;
+#Bandera img{
+  width: 180px; 
+  height: 130px;
+  border: solid;
+  border-color: #e8e8e8;
+}
+
+#Bandera p{
+  font-size: 125%;
+  font-family: "Segoe UI";
+  text-align: center;
   }
 
-  #Bandera p{
-    font-size: 125%;
-    font-family: "Segoe UI";
-    text-align: center;
-  }
 .contenedor-principal{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -636,4 +637,88 @@ h1{
   z-index: 1;
   top: 200px;
   left: 725px;
+}
+#Bandera p{
+  font-size: 125%;
+  font-family: "Segoe UI";
+  text-align: center;
+}
+
+
+/*Registro y login*/
+.body-registro{
+  background-image: url("Imagenes\\Registro\\fondo.jpg");
+}
+.registro{
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: rgb(6, 6, 6);
+  background: #EEF0F4;
+  border-radius: 2%;
+  box-shadow: inset 9.91px 9.91px 15px #D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
+}
+.registro h1{
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.registro p{
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.registro a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.registro a:hover {
+  color: rgb(5, 5, 5);
+  text-decoration: underline;
+}
+.campo-registro{
+  width: 95%;
+  background: #ffffff;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #8C0335;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: rgb(22, 22, 22);
+}
+.registro .boton-registro {
+  width: 100%;
+  background: linear-gradient(145deg, #8C0335, #971e4b);
+  box-shadow: inset 9.91px 9.91px 15px #cf165a, inset -9.91px -9.91px 15px #af3260;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 18px;
+}
+.boton-registro:hover{
+  cursor: pointer;
+}
+/*Registro y login*/
+
+/*Registro PHP*/
+.registro-exito{
+  text-align: center;
+  width: 50%;
+  padding: 12px;
+  background-color: white;
+  color:rgb(0, 0, 0);
+}
+.registro-error{
+  text-align: center;
+  width: 50%;
+  padding: 12px;
+  background-color: white;
+  color:rgb(0, 0, 0);
 }

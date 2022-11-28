@@ -22,7 +22,7 @@
                 <li>
                     <img src="Imagenes/Otros/usuario.png" id="menu-usuario">
                     <ul>
-                        <li><a href="">Registrar</a></li>
+                        <li><a href="Registro.php">Registrar</a></li>
                         <li><a href="">Iniciar sesión</a></li>
                     </ul>
                 </li>

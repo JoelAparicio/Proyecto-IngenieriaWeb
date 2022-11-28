@@ -10,6 +10,7 @@ if(isset($_POST['registrar'])){
         ?>
         <h3 class="registro-exito">¡Te has registrado correctamente!</h3>
         <?php
+        mysqli_close($conn);
     }
     else{
         ?>

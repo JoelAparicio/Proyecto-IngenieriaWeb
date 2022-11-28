@@ -8,6 +8,10 @@
     <link href="index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <?php
+    session_start(); 
+    $usuario = $_SESSION['usuario'];
+    ?>
     <header>
         <div>
             <img src="Imagenes/Otros/logo.png" id="encabezado-logo">
@@ -20,16 +24,12 @@
                 <li><a href="T_Posiciones.php">Posiciones</a></li>
                 <li><a href="Clasificacion.php">Clasificaciones</a></li>
                 <li><a href="Favoritos.php">Favoritos</a></li>
-                <li>
-                    <img src="Imagenes/Otros/usuario.png" id="menu-usuario">
+                <li><?php echo "<a>Bienvenido $usuario<a/>";?>                 
                     <ul class="submenu">
-                        <li>
-                            <?php
-                            session_start();
-                            echo $_SESSION['usuario'];
-                            ?>
+                        <li><a href="Inicio.php">Cerrar Sesión</a>
+                            <?php unset($_SESSION['usuario']);?>
                         </li>
-                        <li><a href="Cerrar_Sesion.php">Cerrar Sesión</a></li>
+                    </ul>
                 </li>
             </ul>
         </nav>

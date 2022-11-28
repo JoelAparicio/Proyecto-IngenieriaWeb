@@ -1,16 +1,17 @@
 <?php
 include ("Conexion.php");
 if(isset($_POST['inicio-sesion'])){
-    $usuario = trim($_POST['usuario-login']);
-    $password = trim($_POST['password-login']);
+    $usuario = $_POST['usuario-login'];
+    $password = $_POST['password-login'];
     $sql_login = "SELECT * FROM usuarios WHERE usuario = '$usuario' AND contraseña = '$password'";
     $resultado = mysqli_query($conn, $sql_login);
     $filas = mysqli_num_rows($resultado);
-    if($filas){
+    if($filas > 0){
         session_start();
-        $_SESSION['usuario'] = $usuario;
-        header("location: Inicio_Usuario.php");
-        die();
+        $_SESSION['usuario'] = "$usuario";
+        header("location:http://localhost/ingenieriaweb/Proyecto-IngenieriaWeb/Inicio_Usuario.php");
+        exit();
+        mysqli_close($conn);
     }
     else{
         ?>

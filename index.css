@@ -309,6 +309,7 @@ ul, ol {
 .recientes-inicio{
   padding: 30px 0px 0px 0px;
   font-size: 200%;
+  color: black;
   margin: 0;
   
 }
@@ -710,15 +711,17 @@ h1{
 /*Registro PHP*/
 .registro-exito{
   text-align: center;
-  width: 50%;
+  width: 400px;
   padding: 12px;
+  margin: 3% 0% 0% 35.3%;
   background-color: white;
   color:rgb(0, 0, 0);
 }
 .registro-error{
   text-align: center;
-  width: 50%;
+  width: 400px;
   padding: 12px;
+  margin: 3% 0% 0% 35.3%;
   background-color: white;
   color:rgb(0, 0, 0);
 }

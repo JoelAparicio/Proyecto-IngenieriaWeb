@@ -7,7 +7,7 @@
     <title>Clasificacion</title>
     <link href="index.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body >
     <header>
         <div>
             <img src="Imagenes/Otros/logo.png" id="encabezado-logo">
@@ -40,11 +40,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                            <td>vs</td>
+                            <td style="font-size:120%;">VS</td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -59,11 +59,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                            <td>vs</td>
+                            <td style="font-size:120%;">VS</td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -74,18 +74,17 @@
                 <div>
                 <div class="contenedor" id="posicion3">
                     <table class="tabla">
-
                         <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                        <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                        <td>vs</td>
+                            <td style="font-size:120%;">VS</td>
 
-                        <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -101,11 +100,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                            <td>vs</td>
+                            <td style="font-size:120%;">VS</td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -119,11 +118,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                            <td>vs</td>
+                            <td style="font-size:120%;">VS</td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -134,18 +133,17 @@
                 <div>
                 <div class="contenedor" id="posicion3">
                     <table class="tabla">
-
                         <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                        <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                        <td>vs</td>
+                            <td style="font-size:120%;">VS</td>
 
-                        <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -165,11 +163,11 @@
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                        <td style="border: solid;">Celda</td>
+                        <td id="entrada">Celda</td>
 
-                        <td>vs</td>
+                        <td style="font-size:120%;">VS</td>
 
-                        <td style="border: solid;">Celda</td>
+                        <td id="entrada">Celda</td>
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -184,11 +182,11 @@
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                        <td style="border: solid;">Celda</td>
+                        <td id="entrada">Celda</td>
 
-                        <td>vs</td>
+                        <td style="font-size:120%;">VS</td>
 
-                        <td style="border: solid;">Celda</td>
+                        <td id="entrada">Celda</td>
 
                         <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -199,18 +197,17 @@
                 
             <div class="contenedor" id="Cposicion3">
                 <table class="tabla">
-
                     <tr>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                    <td style="border: solid;">Celda</td>
+                        <td id="entrada">Celda</td>
 
-                    <td>vs</td>
+                        <td style="font-size:120%;">VS</td>
 
-                    <td style="border: solid;">Celda</td>
+                        <td id="entrada">Celda</td>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                     </tr>
                 </table>
@@ -218,18 +215,17 @@
             </div>
             <div class="contenedor" id="Cposicion4">
                 <table class="tabla">
-
                     <tr>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                    <td style="border: solid;">Celda</td>
+                        <td id="entrada">Celda</td>
 
-                    <td>vs</td>
+                        <td style="font-size:120%;">VS</td>
 
-                    <td style="border: solid;">Celda</td>
+                        <td id="entrada">Celda</td>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                     </tr>
                 </table>
@@ -245,11 +241,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                            <td>vs</td>
+                            <td style="font-size:120%;">VS</td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -263,11 +259,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                            <td>vs</td>
+                            <td style="font-size:120%;">VS</td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -278,18 +274,17 @@
                 <div>
                 <div class="contenedor" id="posicion3">
                     <table class="tabla">
-
                         <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                        <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                        <td>vs</td>
+                            <td style="font-size:120%;">VS</td>
 
-                        <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>
@@ -305,11 +300,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                            <td>vs</td>
+                            <td style="font-size:120%;">VS</td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -323,11 +318,11 @@
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                            <td>vs</td>
+                            <td style="font-size:120%;">VS</td>
 
-                            <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
                             <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
@@ -335,21 +330,20 @@
                     </table>
                     <p>Info</p>
                 </div>
-                <div>
+
                 <div class="contenedor" id="posicion3">
                     <table class="tabla">
-
                         <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
-                        <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                        <td>vs</td>
+                            <td style="font-size:120%;">VS</td>
 
-                        <td style="border: solid;">Celda</td>
+                            <td id="entrada">Celda</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                            <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
 
                         </tr>
                     </table>

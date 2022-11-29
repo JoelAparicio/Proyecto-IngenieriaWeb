@@ -31,8 +31,8 @@
     </header>
     
     <div>
-        <div> 
-            <h1 class="t_equipos">Equipos</h1>
+        <div class="t_equipos"> 
+            <h1>Equipos</h1>
         </div>
         <div class="Continente"> 
             <div class="Continente-mapa"> 
@@ -65,7 +65,7 @@
         <hr style="color: black; background-color: black; width:75%;" /> 
         <div class="Continente"> 
             <div class="Continente-mapa"> 
-                <h2>Americá</h2>
+                <h2>América</h2>
                 <img src="Imagenes/Continentes/América.png">
             </div>
             <div class="Continente-Banderas"> 
@@ -186,6 +186,10 @@
                 <div id="Bandera"> <a href="equipo.php?Serbia=yes">
                     <img src="Imagenes/Continente_Equipos/Europa/Serbia/Bandera Serbia.png">
                     <p>Serbia</p> </a>
+                </div>
+                <div id="Bandera"> <a href="equipo.php?Suiza=yes">
+                    <img src="Imagenes/Continente_Equipos/Europa/Suiza/Bandera Suiza.png">
+                    <p>Suiza</p></a>
                 </div>
             </div>
         </div>

@@ -402,6 +402,8 @@ footer{
 /*T_Equipos*/  
 /*Continentes*/ 
 .t_equipos h1{
+  text-align: center;
+  font-size: 50px;
   font-family: "Segoe UI";
   padding: 10px;
 }
@@ -413,6 +415,8 @@ footer{
 }
 
 .Continente-mapa h2{
+  color: #8C0335;
+  font-size: 40px;
   font-family: "Segoe UI";
   text-align: center;
   padding: 0px 0px 20px 0px;
@@ -751,22 +755,23 @@ footer{
 /*Estilos de página de equipos*/
 .barra-pais{
   width: 50%;
-  font-family: 'calibri';
+  font-family: 'Segoe UI';
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 20px;
-  padding: 1em 0em 0em 1em;
+  padding: 1em 0em 0em 5%;
 }
 .barra-pais img{
   width: 80px;
   height: auto;
 }
 .barra-pais h1{
-  margin: 0px
+  margin: 0px;
 }
 .logros-barra{
-  font-family: 'calibri';
-  margin: 10px 5px 10px 5px;
+  width: 90%;
+  font-family: 'Segoe UI';
+  margin: 10px auto 10px auto;
   background-color: #8c0335f1;
   border-radius: 15px;
 }
@@ -786,19 +791,20 @@ footer{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  margin: 30px auto 30px auto;
+  margin: 30px auto 50px auto;
   align-content: center;
   justify-content: center;
 }
 .cuadro-jugador-equipo{
   height: 100%;
   width: 100%;
-  border: 2px solid #8c0335f1;
+  font-size: 40px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
+  border: #8C0335 solid 4px;
   margin: auto;
   align-items: center;
   padding: 5px 0px 4px 0px;
@@ -809,6 +815,8 @@ footer{
 }
 
 .cuadro-jugador-equipo p{
+  font-family: 'Segoe UI';
+  font-size: 20px;
   margin: 0px;
   width: 100%;
   color: black;

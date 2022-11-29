@@ -190,6 +190,10 @@
                     <img src="../Imagenes/Continente_Equipos/Europa/Serbia/Bandera Serbia.png">
                     <p>Serbia</p> </a>
                 </div>
+                <div id="Bandera"> <a href="">
+                    <img src="../Imagenes/Continente_Equipos/Europa/Alemania/Bandera Alemania.png">
+                    <p>Suiza</p></a>
+                </div>
             </div>
         </div>
         <hr style="color: black; background-color: black; width:75%;" />

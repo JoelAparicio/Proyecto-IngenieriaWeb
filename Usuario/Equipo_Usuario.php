@@ -301,7 +301,7 @@ while($reg=mysqli_fetch_array($registro)){
             <h1><?php echo $pais ?></h1>
         </div>
         <div>
-            <button name="btnFavorito" type="submit" id="btnFavorito" onclick="location.href='Agregar_Favorito.php?cod_equipo=<?php echo $pais?>'"><img src="">Agregar a Favoritos <img src=""></button>
+            <button class="boton-favorito-usuario" name="btnFavorito" type="submit" id="btnFavorito" onclick="location.href='Agregar_Favorito.php?cod_equipo=<?php echo $pais?>'"><img src="..\Imagenes\Otros\Estrella_Fav.png"></button>
         </div>    
     </div>
 

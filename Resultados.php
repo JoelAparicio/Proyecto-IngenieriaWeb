@@ -32,12 +32,12 @@
     </header>
 
     <div> 
-        <div>
+        <div class="resultados-h1">
             <h1>Partidos</h1>
         </div>
 
         <div class="fecha">
-        <form method="POST" name= "formulario fecha">
+        <form method="POST" name= "formulario fecha" class="formulario_resultados">
             <div class=fecha_1>
                 <label for="fecha">Día:</label>
                     <select class="seleccionar" name = "day" id="day">
@@ -76,19 +76,21 @@
             <div class=fecha_1>
                 <label for="month">Mes:</label>
                     <select class="seleccionar" id="month" name="month">
-                        <option>Noviembre</option>
-                        <option>Diciembre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
                     </select> <br><br>
             </div>
 
-            <INPUT TYPE="submit" name="Enviar">
+            <INPUT class="boton_resultados" TYPE="submit" name="enviar-ficha" value="Obtener">
 
         </form>
         </div>
 
-        <div>
+        <div class="resultados-h1">
             <h1>Fichas</h1>
         </div>
+
+    </div>
 
     </div>
     <footer>
@@ -122,24 +124,5 @@
 </body>
 </html>
 
-<?php
-    $day = $_POST['day'];
-    $month = $_POST['month'];
-    
-    if($day == 20 && $month =="Noviembre"){
-        echo " Fecha: $day, $month <br>";
-        echo '<img src="Imagenes/Continente_Equipos/Africa/Camerún/Bandera Camerún.png">';
-    }
-
-    elseif($day <=19 && $month == "Noviembre"){
-        echo "No a iniciado la Copa Mundial";
-    }
-    elseif($day >= 19 && $month == "Deciembre"){
-        echo "Partidos terminados de la Copa Mundial";
-    }
-
-
-
-?>
 
         

@@ -4,7 +4,7 @@ if(isset($_POST['registrar'])){
     $usuario = trim($_POST['usuario-registro']);
     $correo = trim($_POST['correo']);
     $password = trim($_POST['password-registro']);
-    $sql_registro = "INSERT INTO usuarios (usuario,contraseña,correo) VALUES ('$usuario', '$password', '$correo')";
+    $sql_registro = "INSERT INTO usuarios (usuario,contraseña,correo, rol) VALUES ('$usuario', '$password', '$correo', 'Usuario')";
     $resultado = mysqli_query($conn, $sql_registro);
     if($resultado){
         ?>

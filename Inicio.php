@@ -38,7 +38,7 @@
             <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/E2D5/production/_127796085_gettyimages-1245140168.jpg.webp" alt="imagen" class="imagen-noticia">
         </div>
         <div class="card">
-        <a href="https://www.lanacion.com.ar/deportes/futbol/corea-del-sur-vs-ghana-en-vivo-nid28112022/"><h3>¿El mejor partido del Mundial Qatar 2022?</h3></a>
+        <a href="https://www.lanacion.com.ar/deportes/futbol/corea-del-sur-vs-ghana-en-vivo-nid28114022/"><h3>¿El mejor partido del Mundial Qatar 2022?</h3></a>
             <p>Ghana venció a Corea del Sur en un desafío electrizante con cinco goles y emoción hasta el final</p>
             <img src="https://resizer.glanacion.com/resizer/GW9mrhArVit1unq6nVBDJD-hliw=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/QGVNNLSJANBFBJVYNQSMYRG24U.JPG" alt="imagen" class="imagen-noticia">
         </div>

@@ -455,14 +455,15 @@ footer{
   opacity: 100%; 
   background-color: #8C0335;
   width: 100%;
-  height: 60em;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 
-
+.bodyClas body{
+}
 
   .Ronda16-Izquierda{
     position: relative;
@@ -471,11 +472,11 @@ footer{
 
     #Iarriba{
       top: 5em;
-      left: 2.6em;
+      left: 7em;
     }
     #Iabajo{
       top: 30em;
-      left: 0em;
+      left: 7em;
     }
 
   .Ronda16-Derecha{
@@ -484,21 +485,21 @@ footer{
   }
 
     #Darriba{
-      top: 0em;
+      top: 05em;
       left: 90em;
       
     }
 
     #Dabajo{
       top: 30em;
-      left: 0em;
+      left:90em;
       
     }
 
 .contenedor{
   text-align: center;
   border: 0.2em solid #a3053f;
-  width: 12em;
+  width: 10em;
   padding: 0.5em;
   border-radius: 1em;
   background-color: #ffffff;
@@ -507,7 +508,7 @@ footer{
 
   .contenedor p{
     margin: 1em 0em 0em 0em;
-    font-size: 100%;
+    font-size: 90%;
     font-family: "Segoe UI";
     color: #a3053f;
 
@@ -532,7 +533,7 @@ footer{
 
   #Iposicion2{
     position: absolute;
-    left: 12.5em;
+    left: 10em;
     top: 9.3em;
 
     
@@ -555,33 +556,33 @@ footer{
 
   #Cposicion1{
     position: absolute;
-    left: 45em;
-    top: 10em;
+    left: 46.5em;
+    top: 22em;
 
   }
 
   #Cposicion2{
     position: absolute;
     left: 30em;
-    top: 24.3em;
+    top: 35em;
 
     
   }
 
   #Cposicion3{
     position: absolute;
-    left: 60em;
-    top: 24.3em;
+    left: 64.4em;
+    top: 35em;
   }
 
   #Cposicion4{
     position: absolute;
-    left: 45em;
-    top: 40em;
+    left: 46.5em;
+    top: 50em;
   }
 
 .tabla{
-  font-size: 70%;
+  font-size: 50%;
   font-family: "Segoe UI";
   color: #a3053f;
 }
@@ -589,7 +590,7 @@ footer{
   .tabla td{
     width: 3em;
     height: 1em;
-    font-size: 110%;
+    font-size: 200%;
     border-radius: 0.5em;
     border: 0em 0.1em 0em 0.1em;
   }
@@ -601,8 +602,8 @@ footer{
   }
 
   .tabla img{
-    width: vw;
-    height: 3vh;
+    width: 1.5vw;
+    height: 2vh;
     object-fit: fill;
   }
 
@@ -614,8 +615,8 @@ footer{
   width: 10em;
   height: 16em;
   z-index: 1;
-  top: 4em;
-  left: 9.1em;
+  top: 3em;
+  left: 5.5em;
 }
 
 #Linea-der{
@@ -630,28 +631,28 @@ footer{
   left: -6em;
 }
 
-#Linea-der-centro{
+#Linea-izq-centro{
   position: absolute;
   border-radius:  0.5em;
   border: solid#c60049 ;
   border-width: 0.3em 0.3em 0.3em 0em;
   width: 11.5em;
-  height: 30em;
+  height: 24.5em;
   z-index: 1;
-  top: 12em;
+  top: 25.3em;
   left: 25em;
 }
 
-#Linea-izq-centro{
+#Linea-der-centro{
   position: absolute;
   border-radius:  0.5em;
   border: solid#c60049 ;
   border-width: 0.3em 0em 0.3em 0.3em;
   width: 15em;
-  height: 30em;
+  height: 24.5em;
   z-index: 1;
-  top: 12em;
-  left: 66.5em;
+  top: 25.3em;
+  left: 70em;
 }
 
 #Linea-1{
@@ -662,8 +663,8 @@ footer{
   width: 30em;
   height: 0em;
   z-index: 1;
-  top: 27em;
-  left: 36.5em;
+  top: 37.7em;
+  left: 35em;
 }
 
 #Linea-2{
@@ -674,8 +675,8 @@ footer{
   width: 0em;
   height: 25em;
   z-index: 1;
-  top: 18em;
-  left: 51.5em;
+  top: 25em;
+  left: 52em;
 }
 
 #Bandera p{
@@ -846,37 +847,26 @@ footer{
 /*Favoritos*/
 
 
-/*Resultado*/
+/*Resultado-Usuario*/
 
-.fichas {
-  display: grid;
-  gap: 50px 100px;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+.formulario_resultados{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.partido {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
 
 .fecha {
-  display: grid;
-  gap: 10px;
   padding: 10px;
   font-size: 30px;
   text-align: center;
 }
 
 .fecha_1{
-  display:inline-block;
-  padding:30px;
+  
+  padding:10px;
 }
-
 
 .seleccionar {
   padding: 16px 20px;
@@ -885,3 +875,80 @@ footer{
   padding: 10px;
   text-align: center;
 }
+
+.boton_resultados{
+  padding:10px;
+  border: none;
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+.boton_resultados:hover{
+  cursor: pointer;
+}
+.resultados-h1{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 2.5%;
+}
+/*Resultado-Usuario*/
+
+
+/*Resultado-Administrador*/
+.contenedor_input_admin{
+  width: 450px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: rgb(255, 255, 255);
+  background: linear-gradient(145deg, #8C0335, #b80e4c);
+  border-radius: 1%;
+  box-shadow: inset 12.91px 12.91px 8px #8C0335, inset -12.91px -12.91px 8px #af2759;
+}
+.campo-resultado-A{
+  width: 95%;
+  background: #ffffff;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #8C0335;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: rgb(22, 22, 22);
+}
+.boton-resultados-A{
+  width: 100%;
+  background: #eef1f7;
+  box-shadow: inset 12.91px 12.91px 8px #dadce1, inset -12.91px -12.91px 8px #EBF0F9;
+  border: none;
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  margin: 16px 0;
+  font-size: 24px;
+}
+.boton-resultados-A:hover{
+  cursor: pointer;
+}
+
+.resultados-exito{
+  text-align: center;
+  width: 400px;
+  padding: 12px;
+  
+  margin: 3% 0% 5% 35.3%;
+  background-color: #8C0335;
+  color:rgb(255, 255, 255);
+}
+.resultados-error{
+  text-align: center;
+  width: 400px;
+  padding: 12px;
+  margin: 3% 0% 0% 35.3%;
+  background-color: #8C0335;
+  color:rgb(255, 255, 255);
+}
+
+/*Resultado-Administrador*/

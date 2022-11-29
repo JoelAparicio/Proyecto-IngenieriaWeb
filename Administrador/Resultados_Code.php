@@ -17,6 +17,7 @@ if(isset($_POST['enviar-resultados'])){
         ?>
         <h3 class="resultados-exito">¡Se han ingresado los resultados correctamente!</h3>
         <?php
+        include('../Api/api.php');
         mysqli_close($conn);
     }
     else{

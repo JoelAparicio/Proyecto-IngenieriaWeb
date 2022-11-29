@@ -38,6 +38,33 @@
         <h1>Brasil</h1>
         <p>Descripción del equipo</p>
     </div>
-    
+    <footer>
+        <div class="footer">
+            <div class="footer-izquierda">
+                <h2>Información</h2>
+                <ul>
+                    <li><a href="">Política de Privacidad</a></li>
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="">Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-centro">
+                <h2>Redes sociales</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/fifaworldcup/">Facebook</a></li>
+                    <li><a href="https://twitter.com/fifaworldcup_es?s=20&t=7pAMHjlye3yMIuUrXqjx6g">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/copamundo_2022/?hl=es">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-derecha">
+                <h2>Patrocinadores oficiales</h2>
+                <ul>
+                    <li><a href="https://www.adidas.com/us">Adidas</a></li>
+                    <li><a href="https://www.cocacola.es">CocaCola</a></li>
+                    <li><a href="https://www.qatarairways.com/en/homepage.html">Qatar Airways</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

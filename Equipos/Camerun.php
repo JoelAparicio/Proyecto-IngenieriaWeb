@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equipo</title>
-    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="../index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header>
         <div>
-            <img src="Imagenes/Otros/logo.png" id="encabezado-logo">
+            <img src="../Imagenes/Otros/logo.png" id="encabezado-logo">
         </div>
         <nav>
             <ul  class="menu">
@@ -20,7 +20,7 @@
                 <li><a href="T_Posiciones.php">Posiciones</a></li>
                 <li><a href="Clasificacion.php">Clasificaciones</a></li>
                 <li>
-                    <img src="Imagenes/Otros/usuario.png" id="menu-usuario">
+                    <img src="../Imagenes/Otros/usuario.png" id="menu-usuario">
                     <ul>
                         <li><a href="Registrar.php">Registrar</a></li>
                         <li><a href="Login.php">Iniciar sesión</a></li>
@@ -29,5 +29,14 @@
             </ul>
         </nav>
     </header>
+
+    <div class="barra-pais">
+        <div>
+            <img src="../Imagenes/Continente_Equipos/Africa/Camerún/Bandera Camerún.png">
+        </div>
+        <div>
+            <h1>Camerún</h1>
+        </div>
+    </div>
 </body>
 </html>

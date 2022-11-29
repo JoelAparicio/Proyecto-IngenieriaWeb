@@ -32,7 +32,7 @@
     
     <div>
         <div> 
-            <h1>Equipos</h1>
+            <h1 class="t_equipos">Equipos</h1>
         </div>
         <div class="Continente"> 
             <div class="Continente-mapa"> 
@@ -40,7 +40,7 @@
                 <img src="Imagenes/Continentes/Africa.png">
             </div>
             <div class="Continente-Banderas"> 
-                <div id="Bandera"> <a href="">
+                <div id="Bandera"> <a href="../Proyecto-ingenieriaweb/Equipos/Camerun.php">
                     <img src="Imagenes/Continente_Equipos/Africa/Camerún/Bandera Camerún.png">
                     <p>Camerún</p></a>
                 </div>

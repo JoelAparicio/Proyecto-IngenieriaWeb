@@ -401,7 +401,7 @@ footer{
 
 /*T_Equipos*/  
 /*Continentes*/ 
-h1{
+.t_equipos h1{
   font-family: "Segoe UI";
   padding: 10px;
 }
@@ -746,6 +746,24 @@ h1{
   cursor: pointer;
 }
 /*Registro y login*/
+
+/*Estilos de página de equipos*/
+.barra-pais{
+  width: 50%;
+  font-family: 'calibri';
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  padding: 1em 0em 0em 1em;
+}
+.barra-pais img{
+  width: 60px;
+  height: auto;
+}
+.barra-pais h1{
+  margin: 0px
+}
+/*Estilos de página de equipos*/
 
 /*Registro PHP*/
 .registro-exito{

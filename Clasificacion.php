@@ -42,7 +42,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td style="font-size:140%;">VS</td>
+                        <td style="font-size:145%;">VS</td>
 
                         <td id="entrada">#</td>
 
@@ -61,7 +61,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td style="font-size:140%;">VS</td>
+                        <td style="font-size:145%;">VS</td>
 
                         <td id="entrada">#</td>
 
@@ -80,7 +80,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td style="font-size:140%;">VS</td>
+                        <td style="font-size:145%;">VS</td>
 
                         <td id="entrada">#</td>
 
@@ -103,7 +103,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td style="font-size:140%;">VS</td>
+                        <td style="font-size:145%;">VS</td>
 
                         <td id="entrada">#</td>
 
@@ -122,7 +122,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td style="font-size:140%;">VS</td>
+                        <td style="font-size:145%;">VS</td>
 
                         <td id="entrada">#</td>
 
@@ -141,7 +141,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td style="font-size:140%;">VS</td>
+                        <td style="font-size:145%;">VS</td>
 
                         <td id="entrada">#</td>
 
@@ -168,7 +168,7 @@
 
                     <td id="entrada">#</td>
 
-                    <td style="font-size:140%;">VS</td>
+                    <td style="font-size:145%;">VS</td>
 
                     <td id="entrada">#</td>
 
@@ -187,7 +187,7 @@
 
                     <td id="entrada">#</td>
 
-                    <td style="font-size:140%;">VS</td>
+                    <td style="font-size:145%;">VS</td>
 
                     <td id="entrada">#</td>
 
@@ -206,7 +206,7 @@
 
                     <td id="entrada">#</td>
 
-                    <td style="font-size:140%;">VS</td>
+                    <td style="font-size:145%;">VS</td>
 
                     <td id="entrada">#</td>
 
@@ -225,7 +225,7 @@
 
                     <td id="entrada">#</td>
 
-                    <td style="font-size:140%;">VS</td>
+                    <td style="font-size:145%;">VS</td>
 
                     <td id="entrada">#</td>
 
@@ -247,7 +247,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td style="font-size:140%;">VS</td>
+                        <td style="font-size:145%;">VS</td>
 
                         <td id="entrada">#</td>
 
@@ -266,7 +266,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td style="font-size:140%;">VS</td>
+                        <td style="font-size:145%;">VS</td>
 
                         <td id="entrada">#</td>
 
@@ -285,7 +285,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td style="font-size:140%;">VS</td>
+                        <td style="font-size:145%;">VS</td>
 
                         <td id="entrada">#</td>
 
@@ -307,7 +307,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td style="font-size:140%;">VS</td>
+                        <td style="font-size:145%;">VS</td>
 
                         <td id="entrada">#</td>
 
@@ -326,7 +326,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td style="font-size:140%;">VS</td>
+                        <td style="font-size:145%;">VS</td>
 
                         <td id="entrada">#</td>
 
@@ -345,7 +345,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td style="font-size:140%;">VS</td>
+                        <td style="font-size:145%;">VS</td>
 
                         <td id="entrada">#</td>
 

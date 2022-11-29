@@ -309,10 +309,10 @@ while($reg=mysqli_fetch_array($registro)){
             $favorito = $row2['favorito'];
 
             if($favorito == $pais){
-                echo "<a href='Quitar_Favorito.php?pais=$pais'><img src='../Imagenes/Otros/estrella.png' id='estrella'></a>";
+                echo "<a href='Quitar_Favorito.php?pais=$pais'><img src='../Imagenes/Otros/Estrella_C.png' id='estrella'></a>";
             }
             else{
-                echo "<a href='Agregar_Favorito.php?pais=$pais'><img src='../Imagenes/Otros/estrella_vacia.png' id='estrella'></a>";
+                echo "<a href='Agregar_Favorito.php?pais=$pais'><img src='../Imagenes/Otros/Estrella_S.png' id='estrella'></a>";
             }
         ?>
         </div>    

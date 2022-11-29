@@ -777,6 +777,22 @@ footer{
 .barra-pais h1{
   margin: 0px;
 }
+.barra-pais-usuario{
+  width: 50%;
+  font-family: 'Segoe UI';
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 20px;
+  padding: 1em 0em 0em 5%;
+}
+.barra-pais-usuario img{
+  width: 80px;
+  height: auto;
+}
+.barra-pais-usuario h1{
+  margin: 0px;
+}
+
 .logros-barra{
   width: 90%;
   font-family: 'Segoe UI';

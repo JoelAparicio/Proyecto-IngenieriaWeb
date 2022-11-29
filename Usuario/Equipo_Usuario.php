@@ -1,5 +1,5 @@
 <?php
-include ("Conexion.php");
+include ("../Conexion.php");
 
 //Recupera de que enlace viene
 if(isset($_GET['Qatar'])) {
@@ -110,136 +110,136 @@ $logro = $row['logro'];
 
 //Guarda la imagen del uniforme en una variable dependiendo del equipo
 if($pais == "Qatar") {
-    $imguniforme = "Imagenes\Continente_Equipos\Asia\QATAR\Uniforme Qatar.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Asia\QATAR\Bandera Qatar.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Asia\QATAR\Uniforme Qatar.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Asia\QATAR\Bandera Qatar.png";
 }
 elseif($pais == "Ecuador") {
-    $imguniforme = "Imagenes\Continente_Equipos\America\Ecuador\Uniforme Ecuador.png";
-    $imgbandera = "Imagenes\Continente_Equipos\America\Ecuador\Bandera Ecuador.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\America\Ecuador\Uniforme Ecuador.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\America\Ecuador\Bandera Ecuador.png";
 }
 elseif($pais == "Senegal") {
-    $imguniforme = "Imagenes\Continente_Equipos\Africa\Senegal\Uniforme Senegal.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Africa\Senegal\Bandera Senegal.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Africa\Senegal\Uniforme Senegal.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Africa\Senegal\Bandera Senegal.png";
 }
 elseif($pais == "Países Bajos") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\Países Bajos\Uniforme Países Bajos.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\Países Bajos\Bandera Países Bajos.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\Países Bajos\Uniforme Países Bajos.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\Países Bajos\Bandera Países Bajos.png";
 }
 elseif($pais == "Inglaterra") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\Inglaterra\Uniforme Inglaterra.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\Inglaterra\Bandera Inglaterra.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\Inglaterra\Uniforme Inglaterra.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\Inglaterra\Bandera Inglaterra.png";
 }
 elseif($pais == "IR Irán") {
-    $imguniforme = "Imagenes\Continente_Equipos\Asia\Irán\Uniforme Irán.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Asia\Irán\Bandera Irán.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Asia\Irán\Uniforme Irán.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Asia\Irán\Bandera Irán.png";
 }
 elseif($pais == "IR Irán") {
-    $imguniforme = "Imagenes\Continente_Equipos\Asia\Irán\Uniforme Irán.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Asia\Irán\Bandera Irán.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Asia\Irán\Uniforme Irán.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Asia\Irán\Bandera Irán.png";
 }
 elseif($pais == "Estados Unidos") {
-    $imguniforme = "Imagenes\Continente_Equipos\America\Estados Unidos\Uniforme Estados Unidos.png";
-    $imgbandera = "Imagenes\Continente_Equipos\America\Estados Unidos\Bandera Estados Unidos.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\America\Estados Unidos\Uniforme Estados Unidos.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\America\Estados Unidos\Bandera Estados Unidos.png";
 }
 elseif($pais == "Gales") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\Gales\Uniforme Gales.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\Gales\Bandera Gales.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\Gales\Uniforme Gales.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\Gales\Bandera Gales.png";
 }
 elseif($pais == "Argentina") {
-    $imguniforme = "Imagenes\Continente_Equipos\America\Argentina\Uniforme Argentina.png";
-    $imgbandera = "Imagenes\Continente_Equipos\America\Argentina\Bandera Argentina.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\America\Argentina\Uniforme Argentina.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\America\Argentina\Bandera Argentina.png";
 }
 elseif($pais == "Saudi Arabia") {
-    $imguniforme = "Imagenes\Continente_Equipos\Asia\Arabia Saudita\Uniforme Arabia Saudita.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Asia\Arabia Saudita\Bandera Arabia Saudita.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Asia\Arabia Saudita\Uniforme Arabia Saudita.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Asia\Arabia Saudita\Bandera Arabia Saudita.png";
 }
 elseif($pais == "México") {
-    $imguniforme = "Imagenes\Continente_Equipos\America\México\Uniforme México.png";
-    $imgbandera = "Imagenes\Continente_Equipos\America\México\Bandera México.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\America\México\Uniforme México.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\America\México\Bandera México.png";
 }
 elseif($pais == "Polonia") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\Polonia\Uniforme Polonia.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\Polonia\Bandera Polonia.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\Polonia\Uniforme Polonia.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\Polonia\Bandera Polonia.png";
 }
 elseif($pais == "Francia") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\Francia\Uniforme Francia.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\Francia\Bandera Francia.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\Francia\Uniforme Francia.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\Francia\Bandera Francia.png";
 }
 elseif($pais == "Australia") {
-    $imguniforme = "Imagenes\Continente_Equipos\Oceania\Australia\Uniforme Australia.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Oceania\Australia\Bandera Australia.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Oceania\Australia\Uniforme Australia.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Oceania\Australia\Bandera Australia.png";
 }
 elseif($pais == "Dinamarca") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\Dinamarca\Uniforme Dinamarca.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\Dinamarca\Bandera Dinamarca.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\Dinamarca\Uniforme Dinamarca.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\Dinamarca\Bandera Dinamarca.png";
 }
 elseif($pais == "Túnez") {
-    $imguniforme = "Imagenes\Continente_Equipos\Africa\Túnez\Uniforme Túnez.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Africa\Túnez\Bandera Túnez.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Africa\Túnez\Uniforme Túnez.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Africa\Túnez\Bandera Túnez.png";
 }
 elseif($pais == "España") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\España\Uniforme España.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\España\Bandera España.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\España\Uniforme España.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\España\Bandera España.png";
 }
 elseif($pais == "Costa Rica") {
-    $imguniforme = "Imagenes\Continente_Equipos\America\Costa Rica\Uniforme Costa Rica.png";
-    $imgbandera = "Imagenes\Continente_Equipos\America\Costa Rica\Bandera Costa Rica.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\America\Costa Rica\Uniforme Costa Rica.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\America\Costa Rica\Bandera Costa Rica.png";
 }
 elseif($pais == "Alemania") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\Alemania\Uniforme Alemania.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\Alemania\Bandera Alemania.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\Alemania\Uniforme Alemania.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\Alemania\Bandera Alemania.png";
 }
 elseif($pais == "Japón") {
-    $imguniforme = "Imagenes\Continente_Equipos\Asia\Japón\Uniforme Japón.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Asia\Japón\Bandera Japón.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Asia\Japón\Uniforme Japón.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Asia\Japón\Bandera Japón.png";
 }
 elseif($pais == "Bélgica") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\Bélgica\Uniforme Bélgica.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\Bélgica\Bandera Bélgica.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\Bélgica\Uniforme Bélgica.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\Bélgica\Bandera Bélgica.png";
 }
 elseif($pais == "Canadá") {
-    $imguniforme = "Imagenes\Continente_Equipos\America\Canadá\Uniforme Canadá.png";
-    $imgbandera = "Imagenes\Continente_Equipos\America\Canadá\Bandera Canadá.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\America\Canadá\Uniforme Canadá.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\America\Canadá\Bandera Canadá.png";
 }
 elseif($pais == "Marruecos") {
-    $imguniforme = "Imagenes\Continente_Equipos\Africa\Marruecos\Uniforme Marruecos.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Africa\Marruecos\Bandera Marruecos.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Africa\Marruecos\Uniforme Marruecos.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Africa\Marruecos\Bandera Marruecos.png";
 }
 elseif($pais == "Croacia") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\Croacia\Uniforme Croacia.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\Croacia\Bandera Croacia.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\Croacia\Uniforme Croacia.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\Croacia\Bandera Croacia.png";
 }
 elseif($pais == "Brasil") {
-    $imguniforme = "Imagenes\Continente_Equipos\America\Brazil\Uniforme Brazil.png";
-    $imgbandera = "Imagenes\Continente_Equipos\America\Brazil\Bandera Brazil.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\America\Brazil\Uniforme Brazil.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\America\Brazil\Bandera Brazil.png";
 }
 elseif($pais == "Serbia") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\Serbia\Uniforme Serbia.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\Serbia\Bandera Serbia.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\Serbia\Uniforme Serbia.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\Serbia\Bandera Serbia.png";
 }
 elseif($pais == "Suiza") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\Suiza\Uniforme Suiza.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\Suiza\Bandera Suiza.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\Suiza\Uniforme Suiza.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\Suiza\Bandera Suiza.png";
 }
 elseif($pais == "Camerún") {
-    $imguniforme = "Imagenes\Continente_Equipos\Africa\Camerún\Uniforme Camerún.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Africa\Camerún\Bandera Camerún.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Africa\Camerún\Uniforme Camerún.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Africa\Camerún\Bandera Camerún.png";
 }
 elseif($pais == "Portugal") {
-    $imguniforme = "Imagenes\Continente_Equipos\Europa\Portugal\Uniforme Portugal.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Europa\Portugal\Bandera Portugal.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Europa\Portugal\Uniforme Portugal.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Europa\Portugal\Bandera Portugal.png";
 }
 elseif($pais == "Ghana") {
-    $imguniforme = "Imagenes\Continente_Equipos\Africa\Ghana\Uniforme Ghana.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Africa\Ghana\Bandera Ghana.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Africa\Ghana\Uniforme Ghana.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Africa\Ghana\Bandera Ghana.png";
 }
 elseif($pais == "Uruguay") {
-    $imguniforme = "Imagenes\Continente_Equipos\America\Uruguay\Uniforme Uruguay.png";
-    $imgbandera = "Imagenes\Continente_Equipos\America\Uruguay\Bandera Uruguay.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\America\Uruguay\Uniforme Uruguay.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\America\Uruguay\Bandera Uruguay.png";
 }
 elseif($pais == "Corea del Sur") {
-    $imguniforme = "Imagenes\Continente_Equipos\Asia\Corea del Sur\Uniforme Corea del Sur.png";
-    $imgbandera = "Imagenes\Continente_Equipos\Asia\Corea del Sur\Bandera Corea del Sur.png";
+    $imguniforme = "..\Imagenes\Continente_Equipos\Asia\Corea del Sur\Uniforme Corea del Sur.png";
+    $imgbandera = "..\Imagenes\Continente_Equipos\Asia\Corea del Sur\Bandera Corea del Sur.png";
 }
 
 //Array para guardar los nombres de los jugadores
@@ -293,13 +293,16 @@ while($reg=mysqli_fetch_array($registro)){
         </nav>
     </header>
 
-    <div class="barra-pais">
+    <div class="barra-pais-usuario">
         <div>
             <img src="<?php echo $imgbandera?>">
         </div>
         <div>
             <h1><?php echo $pais ?></h1>
         </div>
+        <div>
+            <button name="btnFavorito" type="submit" id="btnFavorito" onclick="location.href='Agregar_Favorito.php?cod_equipo=<?php echo $pais?>'"><img src="">Agregar a Favoritos <img src=""></button>
+        </div>    
     </div>
 
     <div class="logros-barra">

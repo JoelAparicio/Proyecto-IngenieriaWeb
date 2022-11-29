@@ -74,10 +74,10 @@
                     </select><br><br>
             </div>    
             <div class=fecha_1>
-                <label for="month">Month:</label>
+                <label for="month">Mes:</label>
                     <select class="seleccionar" id="month" name="month">
-                        <option>November</option>
-                        <option>December</option>
+                        <option>Noviembre</option>
+                        <option>Diciembre</option>
                     </select> <br><br>
             </div>
 
@@ -99,15 +99,15 @@
     $day = $_POST['day'];
     $month = $_POST['month'];
     
-    if($day == 20 && $month =="November"){
+    if($day == 20 && $month =="Noviembre"){
         echo " Fecha: $day, $month <br>";
         echo '<img src="Imagenes/Continente_Equipos/Africa/Camerún/Bandera Camerún.png">';
     }
 
-    elseif($day <=19 && $month == "November"){
+    elseif($day <=19 && $month == "Noviembre"){
         echo "No a iniciado la Copa Mundial";
     }
-    elseif($day >= 19 && $month == "December"){
+    elseif($day >= 19 && $month == "Deciembre"){
         echo "Partidos terminados de la Copa Mundial";
     }
 

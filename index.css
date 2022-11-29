@@ -279,6 +279,7 @@ ul, ol {
 .card{
     padding: 2em;
     margin: 1.3em;
+    border-radius: 2%;
     width: 20%;
     background: linear-gradient(145deg, #8C0335, #af144d);
 }
@@ -286,6 +287,24 @@ ul, ol {
     color: white;
     text-decoration: none;
 }
+
+.card p{
+    font-size: 1em;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 1em;
+    color: rgb(238, 171, 189);
+}
+
+.card h3{
+    font-size: 1.5em;
+    font-family: "Segoe UI";
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 1em;
+}
+
 .imagen-noticia{
     height: 25vh;
     width: 20vw;
@@ -294,10 +313,18 @@ ul, ol {
 
 .card:hover{
     background: linear-gradient(145deg, #b4bdd2, #cfeef7);
-    border-radius: 2%;
     box-shadow: 9.91px 9.91px 16px #b8c0cf, -9.91px -9.91px 16px #e4ecfc;
     transform: scale(1.05);
 }
+
+.card:hover p{
+    color: rgb(73, 73, 73);
+}
+
+.card:hover h3{
+  color: #000;
+}
+
 /*Noticias-Inicio*/ 
 
 /*Partidos recientes-Inicio*/
@@ -306,52 +333,70 @@ ul, ol {
   text-align: center;
   width: 100%;
   background: linear-gradient(145deg, #FFFFFF, #C1C3C6);
-  color: black;
-  
+  padding: 30px 0px 0px 0px;
+  font-size: 200%;
+  font-family: 'Segoe UI';
 }
+
+
 .recientes-inicio{
   padding: 30px 0px 0px 0px;
   font-size: 200%;
-  color: black;
+  color: #8C0335;
   margin: 0;
   
 }
 .tiempo-inicio{
   text-align: right;
-  padding-right: 50px;
-  font-size: 25px;
-  color: black;
+  justify-self: end;
+  margin-right: 150px;
+  font-size: 125%;
+  color: #500c25;
 }
 .enfrentamiento-inicio{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 2fr 1fr 2fr;
   width: 100%;
+  gap: 5px;
   
 }
 .equipo-inicio{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 30px;
-  margin: 20px;
-  color: black;
-  
+  display: grid;
+  grid-template-rows: 2fr;
+  width: 100%;
+  justify-content: center;
+  color: #500c25;
+  padding-bottom: 20px;
 }
+
+#equipo-inicio-vs{
+  display: flex;
+  align-items: center;
+}
+
+#equipo-inicio-vs p{
+  color: #500c25;
+  font-family: 'Segoe UI';
+  font-size: 210%;
+  width: 100%;
+}
+
 .equipo-inicio h1{
   font-size: 75px;
-  margin: 5%;
+  margin: 0%;
   color: black;
+  border: solid 3px #8C0335;
+  border-radius: 5%;
+  width: 100%;
   
 }
-.equipo-inicio p{
-  color: black;
-  font-size: 50px;
-}
+
 .bandera-inicio{
-  height: 20vh;
-  width: 20vw;
-  object-fit: cover;
-}
+  height: 15vh;
+  width: 15vw;
+  object-fit: fill;
+  margin: 0px 0px 10px 10px;
+} 
 .info-inicio{
   width: 100%;
   font-size: 20px;
@@ -362,16 +407,39 @@ ul, ol {
     
 }
 .info-inicio-1{
-  justify-self: start;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin: 0 auto;
 }
 .info-inicio-2{
-  justify-self: end;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 .info-inicio p{
   color: black;
   margin-top: 0px;
-  padding: 0px 50px 0px 50px;
+  font-size: 150%;
+  font-family: 'Segoe UI';
+  color: #500c25;
 }
+
+.info-inicio-contenido{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 5px 0px 5px 0px;
+  border-bottom: solid 3px #8C0335;
+  margin-bottom: 15px;
+}
+
+.Uniforme-inicio{
+  height: 8vh;
+  width: 5vw;
+  object-fit: fill;
+}
+
+
 /*Partidos recientes-Inicio*/
 
 /*footer*/

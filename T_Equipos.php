@@ -40,7 +40,7 @@
                 <img src="Imagenes/Continentes/Africa.png">
             </div>
             <div class="Continente-Banderas"> 
-                <div id="Bandera"> <a href="../Proyecto-ingenieriaweb/Equipos/Camerun.php?camerun=yes">
+                <div id="Bandera"> <a href="equipo.php?camerun=yes">
                     <img src="Imagenes/Continente_Equipos/Africa/Camerún/Bandera Camerún.png">
                     <p>Camerún</p></a>
                 </div>

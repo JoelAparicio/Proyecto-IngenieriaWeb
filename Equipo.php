@@ -1,5 +1,5 @@
-<?php
-include ("../proyecto-ingenieriaweb/Conexion.php");
+<?php/*
+include ("Conexion.php");
 
 if(isset($_GET['camerun'])) {
     $pais="Camerun";
@@ -30,7 +30,7 @@ while($reg=mysqli_fetch_array($registro)){
     $Nombre[$i]=$reg['nombre'];
     $Apellido[$i]=$reg['apellido'];
     $i++;
-}
+}*/
 ?>
 
 <!DOCTYPE html>
@@ -40,12 +40,12 @@ while($reg=mysqli_fetch_array($registro)){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equipo</title>
-    <link href="../index.css" rel="stylesheet" type="text/css">
+    <link href="index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header>
         <div>
-            <img src="../Imagenes/Otros/logo.png" id="encabezado-logo">
+            <img src="Imagenes/Otros/logo.png" id="encabezado-logo">
         </div>
         <nav>
             <ul  class="menu">
@@ -55,7 +55,7 @@ while($reg=mysqli_fetch_array($registro)){
                 <li><a href="T_Posiciones.php">Posiciones</a></li>
                 <li><a href="Clasificacion.php">Clasificaciones</a></li>
                 <li>
-                    <img src="../Imagenes/Otros/usuario.png" id="menu-usuario">
+                    <img src="Imagenes/Otros/usuario.png" id="menu-usuario">
                     <ul>
                         <li><a href="Registrar.php">Registrar</a></li>
                         <li><a href="Login.php">Iniciar sesión</a></li>
@@ -67,14 +67,40 @@ while($reg=mysqli_fetch_array($registro)){
 
     <div class="barra-pais">
         <div>
-            <img src="../Imagenes/Continente_Equipos/Africa/Camerún/Bandera Camerún.png">
+            <img src="Imagenes/Continente_Equipos/Africa/Camerún/Bandera Camerún.png">
         </div>
         <div>
-            <h1>Camerún</h1>
+            <h1>Pais</h1>
         </div>
+    </div>
+
+    <div class="logros-barra">
         <div>
-            {!! Form::checkbox('super', true, null, ['class' => 'super-user-check']) !!}
-            <i class="fa fa-star super-user-icon" aria-hidden="true"></i>
+            <h1>Logros</h1>
+            <p>aqui imprime la cadena de logros con: echo $logro; </p>
+            <br>
+        </div>
+    </div>
+
+    <div class="cont-jugadores-equipo">
+        <div class="cuadro-jugador-equipo">
+            <div>
+                <img src="Imagenes/Continente_Equipos/Africa/Camerún.jpg">
+            </div>
+            <div>
+                <p>echo $Nombre[0]</p>
+                <p>echo $Apellido[0]</p>
+            </div>
+        </div>
+
+        <div class="cuadro-jugador-equipo">
+            <div>
+                <img src="Imagenes/Continente_Equipos/Africa/Camerún.jpg">
+            </div>
+            <div>
+                <p>echo $Nombre[1];</p>
+                <p>echo $Apellido[1];</p>
+            </div>
         </div>
     </div>
 </body>

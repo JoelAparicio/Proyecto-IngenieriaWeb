@@ -763,6 +763,38 @@ footer{
 .barra-pais h1{
   margin: 0px
 }
+.logros-barra{
+  font-family: 'calibri';
+  margin: 10px 5px 10px 5px;
+  background-color: #8c0335f1;
+  border-radius: 15px;
+}
+.logros-barra h1, p{
+  margin: 0px;
+  padding: 5px 15px 5px 15px;
+  color: white;
+}
+.logros-barra p{
+  font-size: 20px;
+}
+.cont-jugadores-equipo{
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin: 30px auto 30px auto;
+  border: 1px solid #8c0335f1;
+}
+.cuadro-jugador-equipo{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+
 /*Estilos de página de equipos*/
 
 /*Registro PHP*/

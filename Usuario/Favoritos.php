@@ -52,8 +52,66 @@ $favorito = $row2['favorito'];
         if($favorito == null){
             echo "No hay favoritos";
         }
-        ?>
 
+        //Array de favoritos
+        $equipo_1=array();
+        $equipo_2=array();
+        $goles_1=array();
+        $goles_2=array();
+        $fecha=array();
+        $hora=array();
+        $estadio=array();
+        $grupo=array();
+        $i=0;
+
+
+        $consulta="SELECT * FROM resultados WHERE equipo_1='$favorito' OR equipo_2='$favorito'";
+        $registro=mysqli_query($conn,$consulta);
+        while($reg=mysqli_fetch_array($registro)){
+            $equipo_1[$i]=$reg['equipo_1'];
+            $equipo_2[$i]=$reg['equipo_2'];
+            $goles_1 [$i]= $reg['goles_1'];
+            $goles_2 [$i]= $reg['goles_2'];
+            $fecha [$i]= $reg['fecha'];
+            $hora [$i]= $reg['hora'];
+            $estadio[$i] = $reg['estadio'];
+            $grupo[$i] = $reg['grupo'];
+            $i++;
+        
+        ?>
+        <div class="ficha-cuadro">
+                <div class="ficha-grid">
+                    <div class="ficha-grupo">
+                        <h1><?php echo "Grupo: $grupo" ?></h1>
+                    </div>
+                    <div class="ficha-estadio">
+                        <h1><?php echo "Estadio: $estadio" ?></h1>
+                    </div>
+                    <div class="ficha-fecha">
+                        <h1><?php echo $fecha ?></h1>
+                    </div>  
+                    <div class="ficha-hora">
+                        <h1><?php echo $hora ?></h1>
+                    </div>
+                </div>
+                <div class="ficha-grid">
+                    <div class="ficha-equipo-1">
+                    <h1><?php echo $equipo_1 ?></h1>
+                    </div>
+                    <div class="ficha-goles">
+                    <h1><?php echo $goles_1 ?></h1>
+                    </div>
+                    <div class="ficha-goles">
+                    <h1><?php echo $goles_2 ?></h1>
+                    </div>
+                    <div class="ficha-equipo-2">
+                    <h1><?php echo $equipo_2 ?></h1>
+                    </div>
+                </div>
+            </div>
+            <?php
+        }
+    
     <footer>
         <div class="footer">
             <div class="footer-izquierda">

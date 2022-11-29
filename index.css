@@ -1033,3 +1033,83 @@ footer{
 
 
 /*Favoritos*/
+/*Resultado-Administrador*/
+
+
+/*Tabla de posiciones*/
+.div_tablas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  font-family:'Segoe UI';
+}
+
+.Titulo_tabla_posiciones h1{
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 2.5%;
+  font-family: 'Segoe UI';
+  color: #5c1931;
+}
+
+.Tabla_posiciones{
+  padding: 2em;
+
+}
+  .Tabla_posiciones h1,p{
+    width:400px;
+    margin:35px auto;
+    text-align:center;
+    color:#8C0335;
+  }
+  .Tabla_posiciones p{
+    width:500px;
+  }
+  .Tabla_posiciones table{
+    width:720px;
+    margin:0 auto;
+    color:rgb(70, 4, 4);
+    text-align:center;
+  }
+
+  .Tabla_posiciones td{
+    height: 3em;
+  }
+
+  .Tabla_posiciones tr{
+    cursor:pointer;
+  }
+
+  .Tabla_posiciones img{
+    width: 3em;
+    height: 2em;
+    border: 0.1em solid #dec8c82c;
+  }
+  
+  
+  #destacado{
+    font-family: 'Segoe UI';
+    font-weight:bold;
+    background-color:#8C0335;
+    color:rgb(255, 255, 255);
+  }
+
+
+  /* Impares */
+  .Tabla_posiciones table tr:nth-child(odd){
+    background-color:#d1959f;
+  }
+
+  .Tabla_posiciones table tr:nth-child(odd):hover{
+    color:#fff1f1;
+    background-color:#a00b42;
+  }
+  /* Pares */
+  .Tabla_posiciones table tr:nth-child(even){
+    background-color:#fff1f1;
+  }
+
+  .Tabla_posiciones table tr:nth-child(even):hover{
+    color:#fff1f1;
+    background-color:#a00b42;
+  }

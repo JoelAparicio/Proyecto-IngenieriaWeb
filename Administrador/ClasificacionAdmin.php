@@ -41,11 +41,11 @@
 
                         <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td style="font-size:145%;">VS</td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
@@ -60,11 +60,11 @@
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td style="font-size:145%;">VS</td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -79,11 +79,11 @@
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td style="font-size:145%;">VS</td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -102,11 +102,11 @@
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td style="font-size:145%;">VS</td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -121,11 +121,11 @@
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td style="font-size:145%;">VS</td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -140,11 +140,11 @@
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td style="font-size:145%;">VS</td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -167,11 +167,11 @@
 
                     <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                    <td id="entrada">#</td>
+                    <td id="entrada">0</td>
 
                     <td style="font-size:145%;">VS</td>
 
-                    <td id="entrada">#</td>
+                    <td id="entrada">0</td>
 
                     <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -186,11 +186,11 @@
 
                     <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                    <td id="entrada">#</td>
+                    <td id="entrada">0</td>
 
                     <td style="font-size:145%;">VS</td>
 
-                    <td id="entrada">#</td>
+                    <td id="entrada">0</td>
 
                     <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -205,11 +205,11 @@
 
                     <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                    <td id="entrada">#</td>
+                    <td id="entrada">0</td>
 
                     <td style="font-size:145%;">VS</td>
 
-                    <td id="entrada">#</td>
+                    <td id="entrada">0</td>
 
                     <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -224,11 +224,11 @@
 
                     <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                    <td id="entrada">#</td>
+                    <td id="entrada">0</td>
 
                     <td style="font-size:145%;">VS</td>
 
-                    <td id="entrada">#</td>
+                    <td id="entrada">0</td>
 
                     <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -246,11 +246,11 @@
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td style="font-size:145%;">VS</td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -265,11 +265,11 @@
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td style="font-size:145%;">VS</td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -284,11 +284,11 @@
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td style="font-size:145%;">VS</td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -306,11 +306,11 @@
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td style="font-size:145%;">VS</td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -325,11 +325,11 @@
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td style="font-size:145%;">VS</td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
@@ -344,11 +344,11 @@
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td style="font-size:145%;">VS</td>
 
-                        <td id="entrada">#</td>
+                        <td id="entrada">0</td>
 
                         <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 

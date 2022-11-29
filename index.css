@@ -462,17 +462,25 @@ footer{
   font-family: "Segoe UI";
   text-align: center;
   }
+/*T_Equipos*/  
+/*Continentes*/ 
 
-.contenedor-principal{
-  display: flex;
+
+/*Clasificacion*/
+
+.body-clas{
   background-image: url("Imagenes/Otros/fondo1.jpg");
   opacity: 100%; 
-  background-color: #8C0335;
-  width: 100%;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: cover;
+
+}
+.contenedor-principal{
+  position: block;
+  overflow: hidden;
+  width: 120px;
+  height:120px;
+  height: 130vh;
+  
 }
 
 
@@ -697,7 +705,7 @@ footer{
   font-family: "Segoe UI";
   text-align: center;
 }
-
+/*Clasificacion*/
 
 /*Registro y login*/
 .body-registro{

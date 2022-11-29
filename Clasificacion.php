@@ -7,7 +7,7 @@
     <title>Clasificacion</title>
     <link href="index.css" rel="stylesheet" type="text/css">
 </head>
-<body class="bodyClas">
+<body class="body-clas">
     <header>
         <div>
             <img src="Imagenes/Otros/logo.png" id="encabezado-logo">

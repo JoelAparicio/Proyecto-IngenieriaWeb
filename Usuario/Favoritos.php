@@ -54,10 +54,6 @@ $favorito = $row2['favorito'];
         }
         ?>
 
-
-
-
-
     <footer>
         <div class="footer">
             <div class="footer-izquierda">

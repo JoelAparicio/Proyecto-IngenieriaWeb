@@ -455,14 +455,15 @@ footer{
   opacity: 100%; 
   background-color: #8C0335;
   width: 100%;
-  height: 60em;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 
-
+.bodyClas body{
+}
 
   .Ronda16-Izquierda{
     position: relative;
@@ -471,11 +472,11 @@ footer{
 
     #Iarriba{
       top: 5em;
-      left: 2.6em;
+      left: 7em;
     }
     #Iabajo{
       top: 30em;
-      left: 0em;
+      left: 7em;
     }
 
   .Ronda16-Derecha{
@@ -484,21 +485,21 @@ footer{
   }
 
     #Darriba{
-      top: 0em;
+      top: 05em;
       left: 90em;
       
     }
 
     #Dabajo{
       top: 30em;
-      left: 0em;
+      left:90em;
       
     }
 
 .contenedor{
   text-align: center;
   border: 0.2em solid #a3053f;
-  width: 12em;
+  width: 10em;
   padding: 0.5em;
   border-radius: 1em;
   background-color: #ffffff;
@@ -507,7 +508,7 @@ footer{
 
   .contenedor p{
     margin: 1em 0em 0em 0em;
-    font-size: 100%;
+    font-size: 90%;
     font-family: "Segoe UI";
     color: #a3053f;
 
@@ -532,7 +533,7 @@ footer{
 
   #Iposicion2{
     position: absolute;
-    left: 12.5em;
+    left: 10em;
     top: 9.3em;
 
     
@@ -555,33 +556,33 @@ footer{
 
   #Cposicion1{
     position: absolute;
-    left: 45em;
-    top: 10em;
+    left: 46.5em;
+    top: 22em;
 
   }
 
   #Cposicion2{
     position: absolute;
     left: 30em;
-    top: 24.3em;
+    top: 35em;
 
     
   }
 
   #Cposicion3{
     position: absolute;
-    left: 60em;
-    top: 24.3em;
+    left: 64.4em;
+    top: 35em;
   }
 
   #Cposicion4{
     position: absolute;
-    left: 45em;
-    top: 40em;
+    left: 46.5em;
+    top: 50em;
   }
 
 .tabla{
-  font-size: 70%;
+  font-size: 50%;
   font-family: "Segoe UI";
   color: #a3053f;
 }
@@ -589,7 +590,7 @@ footer{
   .tabla td{
     width: 3em;
     height: 1em;
-    font-size: 110%;
+    font-size: 200%;
     border-radius: 0.5em;
     border: 0em 0.1em 0em 0.1em;
   }
@@ -601,8 +602,8 @@ footer{
   }
 
   .tabla img{
-    width: vw;
-    height: 3vh;
+    width: 1.5vw;
+    height: 2vh;
     object-fit: fill;
   }
 
@@ -614,8 +615,8 @@ footer{
   width: 10em;
   height: 16em;
   z-index: 1;
-  top: 4em;
-  left: 9.1em;
+  top: 3em;
+  left: 5.5em;
 }
 
 #Linea-der{
@@ -630,28 +631,28 @@ footer{
   left: -6em;
 }
 
-#Linea-der-centro{
+#Linea-izq-centro{
   position: absolute;
   border-radius:  0.5em;
   border: solid#c60049 ;
   border-width: 0.3em 0.3em 0.3em 0em;
   width: 11.5em;
-  height: 30em;
+  height: 24.5em;
   z-index: 1;
-  top: 12em;
+  top: 25.3em;
   left: 25em;
 }
 
-#Linea-izq-centro{
+#Linea-der-centro{
   position: absolute;
   border-radius:  0.5em;
   border: solid#c60049 ;
   border-width: 0.3em 0em 0.3em 0.3em;
   width: 15em;
-  height: 30em;
+  height: 24.5em;
   z-index: 1;
-  top: 12em;
-  left: 66.5em;
+  top: 25.3em;
+  left: 70em;
 }
 
 #Linea-1{
@@ -662,8 +663,8 @@ footer{
   width: 30em;
   height: 0em;
   z-index: 1;
-  top: 27em;
-  left: 36.5em;
+  top: 37.7em;
+  left: 35em;
 }
 
 #Linea-2{
@@ -674,8 +675,8 @@ footer{
   width: 0em;
   height: 25em;
   z-index: 1;
-  top: 18em;
-  left: 51.5em;
+  top: 25em;
+  left: 52em;
 }
 
 #Bandera p{

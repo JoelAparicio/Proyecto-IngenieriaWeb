@@ -14,7 +14,7 @@
     ?>
     <header>
         <div>
-        <img src=..\Imagenes/Otros/logo.png" id="encabezado-logo">
+        <img src="..\Imagenes/Otros/logo.png" id="encabezado-logo">
         </div>
         <nav>
             <ul  class="menu">

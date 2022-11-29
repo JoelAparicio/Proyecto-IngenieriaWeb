@@ -800,20 +800,10 @@ footer{
 .barra-pais-usuario h1{
   margin: 0px;
 }
-.boton-favorito-usuario{
-  width: auto;
-  background:none;
-  border: none;
-  margin: 0px;
-}
 .boton-favorito-usuario img{
   width: 40px;
   height: auto;
 }
-.boton-favorito-usuario:hover{
-  cursor: pointer;
-}
-
 .logros-barra{
   width: 90%;
   font-family: 'Segoe UI';

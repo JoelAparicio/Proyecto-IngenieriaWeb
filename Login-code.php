@@ -12,13 +12,13 @@ if(isset($_POST['inicio-sesion'])){
     if($filas_user > 0){
         session_start();
         $_SESSION['usuario'] = "$usuario";
-        header("location:/Usuario/Inicio_Usuario.php");
+        header("location:Usuario/Inicio_Usuario.php");
         mysqli_close($conn);
     }
     else if($filas_admin > 0){
         session_start();
         $_SESSION['usuario'] = "$usuario";
-        header("location:/Administrador/Inicio_Admin.php");
+        header("location:Administrador/Inicio_Admin.php");
         mysqli_close($conn);
     }
     else{

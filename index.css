@@ -826,37 +826,26 @@ footer{
 /*Favoritos*/
 
 
-/*Resultado*/
+/*Resultado-Usuario*/
 
-.fichas {
-  display: grid;
-  gap: 50px 100px;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+.formulario_resultados{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.partido {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
 
 .fecha {
-  display: grid;
-  gap: 10px;
   padding: 10px;
   font-size: 30px;
   text-align: center;
 }
 
 .fecha_1{
-  display:inline-block;
-  padding:30px;
+  
+  padding:10px;
 }
-
 
 .seleccionar {
   padding: 16px 20px;
@@ -865,3 +854,80 @@ footer{
   padding: 10px;
   text-align: center;
 }
+
+.boton_resultados{
+  padding:10px;
+  border: none;
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+.boton_resultados:hover{
+  cursor: pointer;
+}
+.resultados-h1{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 2.5%;
+}
+/*Resultado-Usuario*/
+
+
+/*Resultado-Administrador*/
+.contenedor_input_admin{
+  width: 450px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: rgb(255, 255, 255);
+  background: linear-gradient(145deg, #8C0335, #b80e4c);
+  border-radius: 1%;
+  box-shadow: inset 12.91px 12.91px 8px #8C0335, inset -12.91px -12.91px 8px #af2759;
+}
+.campo-resultado-A{
+  width: 95%;
+  background: #ffffff;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #8C0335;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: rgb(22, 22, 22);
+}
+.boton-resultados-A{
+  width: 100%;
+  background: #eef1f7;
+  box-shadow: inset 12.91px 12.91px 8px #dadce1, inset -12.91px -12.91px 8px #EBF0F9;
+  border: none;
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  margin: 16px 0;
+  font-size: 24px;
+}
+.boton-resultados-A:hover{
+  cursor: pointer;
+}
+
+.resultados-exito{
+  text-align: center;
+  width: 400px;
+  padding: 12px;
+  
+  margin: 3% 0% 5% 35.3%;
+  background-color: #8C0335;
+  color:rgb(255, 255, 255);
+}
+.resultados-error{
+  text-align: center;
+  width: 400px;
+  padding: 12px;
+  margin: 3% 0% 0% 35.3%;
+  background-color: #8C0335;
+  color:rgb(255, 255, 255);
+}
+
+/*Resultado-Administrador*/

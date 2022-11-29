@@ -18,15 +18,13 @@
         </div>
         <nav>
             <ul  class="menu">
-                <li><a href="Inicio_Usuario.php">Inicio</a></li>
-                <li><a href="T_Equipos_Usuario.php">Equipos</a></li>
-                <li><a href="Resultados_Usuario.php">Resultados</a></li>
-                <li><a href="T_Posiciones_Usuario.php">Posiciones</a></li>
-                <li><a href="Clasificacion_Usuario.php">Clasificaciones</a></li>
-                <li><a href="Favoritos.php">Favoritos</a></li>
+                <li><a href="Inicio_Admin.php">Inicio</a></li>
+                <li><a href="Resultados_Admin.php">Resultados</a></li>
+                <li><a href="T_Posiciones_Admin.php">Posiciones</a></li>
+                <li><a href="ClasificacionAdmin.php">Clasificaciones</a></li>
                 <li><a>Bienvenid@ <?= $usuario?></a>                
                     <ul class="submenu">
-                        <li><a href="../Inicio.php">Cerrar Sesión</a><?php unset($_SESSION['usuario']);?></li>
+                        <li><a href="cerrar_sesion.php?cerrar=yes">Cerrar Sesión</a></li>
                     </ul>
                 </li>
             </ul>

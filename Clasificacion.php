@@ -38,7 +38,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">#</td>
 
@@ -46,7 +46,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>
@@ -57,7 +57,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">#</td>
 
@@ -65,7 +65,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>
@@ -76,7 +76,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">#</td>
 
@@ -84,7 +84,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>
@@ -99,7 +99,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">#</td>
 
@@ -107,7 +107,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>
@@ -118,7 +118,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">#</td>
 
@@ -126,7 +126,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>
@@ -137,7 +137,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">#</td>
 
@@ -145,7 +145,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>
@@ -164,7 +164,7 @@
             <table class="tabla">
                 <tr>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                    <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     <td id="entrada">#</td>
 
@@ -172,7 +172,7 @@
 
                     <td id="entrada">#</td>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                    <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                 </tr>
             </table>
@@ -183,7 +183,7 @@
             <table class="tabla">
                 <tr>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                    <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     <td id="entrada">#</td>
 
@@ -191,7 +191,7 @@
 
                     <td id="entrada">#</td>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                    <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                 </tr>
             </table>
@@ -202,7 +202,7 @@
             <table class="tabla">
                 <tr>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                    <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     <td id="entrada">#</td>
 
@@ -210,7 +210,7 @@
 
                     <td id="entrada">#</td>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                    <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                 </tr>
             </table>
@@ -221,7 +221,7 @@
             <table class="tabla">
                 <tr>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                    <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     <td id="entrada">#</td>
 
@@ -229,7 +229,7 @@
 
                     <td id="entrada">#</td>
 
-                    <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                    <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                 </tr>
             </table>
@@ -243,7 +243,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">#</td>
 
@@ -251,7 +251,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>
@@ -262,7 +262,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">#</td>
 
@@ -270,7 +270,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>
@@ -281,7 +281,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">#</td>
 
@@ -289,7 +289,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>
@@ -303,7 +303,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">#</td>
 
@@ -311,7 +311,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>
@@ -322,7 +322,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">#</td>
 
@@ -330,7 +330,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>
@@ -341,7 +341,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">#</td>
 
@@ -349,7 +349,7 @@
 
                         <td id="entrada">#</td>
 
-                        <td><img src="Imagenes/Continente_Equipos/Europa/Portugal/Bandera Portugal.png"></td>
+                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>

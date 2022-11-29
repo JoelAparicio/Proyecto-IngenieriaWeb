@@ -74,19 +74,19 @@
             </div>
             <div class="equipo-inicio">
                 <h1>3</h1>
-                <img src="Imagenes\Continente_Equipos\America\México\Bandera México.png" alt="Mexico" class="bandera-inicio">
+                <img src="Imagenes\Continente_Equipos\Europa\Portugal\Bandera Portugal.png" alt="Portugal" class="bandera-inicio">
             </div>
         </div>
         <div class="info-inicio">
             <div class="info-inicio-1">
-                <p>Jugador 1  89'</p>
-                <p>Jugador 2  90'</p>
+                <p>Fede Valverde 3'</p>
+                <p>Darwin Nuñez  27'</p>
                 
             </div>
             <div class="info-inicio-2">
-                <p>Jugador 1  89'</p>
-                <p>Jugador 2  90'</p>
-                <p>Jugador 3  92'</p>
+                <p>Bruno Fernandes 11'</p>
+                <p>Cristiano Ronaldo 60'</p>
+                <p>Cristiano Ronaldo (p) 92'</p>
             </div>
         </div>
 

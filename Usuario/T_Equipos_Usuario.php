@@ -34,7 +34,7 @@
     </header>
     
     <div>
-        <div> 
+        <div class="t_equipos"> 
             <h1>Equipos</h1>
         </div>
         <div class="Continente"> 
@@ -78,7 +78,7 @@
                 </div>
                 <div id="Bandera"> <a href="equipo_usuario.php?Brasil=yes">
                     <img src="../Imagenes/Continente_Equipos/America/Brazil/Bandera Brazil.png">
-                    <p>Brazil</p></a>
+                    <p>Brasil</p></a>
                 </div>
                 <div id="Bandera"> <a href="equipo_usuario.php?Canadá=yes">
                     <img src="../Imagenes/Continente_Equipos/America/Canadá/Bandera Canadá.png">

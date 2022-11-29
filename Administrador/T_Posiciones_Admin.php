@@ -574,7 +574,7 @@
                         <img src="../Imagenes/Continente_Equipos/America/Brazil/Bandera Brazil.png"/>
                     </td>
                     <td>
-                        Brazil
+                        Brasil
                     </td>
                     <td>21</td>
                     <td>21</td>

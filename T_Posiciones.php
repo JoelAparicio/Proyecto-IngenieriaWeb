@@ -226,7 +226,7 @@
                     </tr>
                     <tr>
                     <td>
-                        <img src="imagenes/Continente_Equipos/America/Argentina/Bandera Argentina.png" />
+                        <img src="Imagenes/Continente_Equipos/America/Argentina/Bandera Argentina.png" />
                     </td>
                     <td>
                         Argentina
@@ -244,7 +244,7 @@
                     </tr>
                     <tr>
                     <td>
-                    <img src="imagenes/Continente_Equipos/Asia/Arabia Saudita/Bandera Arabia Saudita.png" />
+                    <img src="Imagenes/Continente_Equipos/Asia/Arabia Saudita/Bandera Arabia Saudita.png" />
                     </td>
                     <td>Arabia Saudita</td>
                     <td>21</td>
@@ -260,7 +260,7 @@
                     </tr>
                     <tr>
                     <td>
-                        <img src="imagenes/Continente_Equipos/America/México/Bandera México.png" />
+                        <img src="Imagenes/Continente_Equipos/America/México/Bandera México.png" />
                     </td>
                     <td>México</td>
                     <td>21</td>
@@ -276,7 +276,7 @@
                     </tr>
                     <tr>
                     <td>
-                        <img src="imagenes/Continente_Equipos/Europa/Polonia/Bandera Polonia.png" />
+                        <img src="Imagenes/Continente_Equipos/Europa/Polonia/Bandera Polonia.png" />
                     </td>
                     <td>Polonia</td>
                     <td>21</td>

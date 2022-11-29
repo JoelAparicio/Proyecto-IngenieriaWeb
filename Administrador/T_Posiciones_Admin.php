@@ -166,6 +166,36 @@
                     <td>
                         Inglaterra
                     </td>
+                    <td><?=$puntos[2]?></td>
+                    <td><?=$jj[2]?></td>
+                    <td><?=$jg[2]?></td>
+                    <td><?=$je[2]?></td>
+                    <td><?=$jp[2]?></td>
+                    <td><?=$ga[2]?></td>
+                    <td><?=$gc[2]?></td>
+                    <td><?=$dif[2]?></td>
+                    
+                    </tr>
+                    <tr>
+                    <td>
+                    <img src="Imagenes/Continente_Equipos/Asia/Irán/Bandera Irán.png" />
+                    </td>
+                    <td>Irán</td>
+                    <td><?=$puntos[3]?></td>
+                    <td><?=$jj[3]?></td>
+                    <td><?=$jg[3]?></td>
+                    <td><?=$je[3]?></td>
+                    <td><?=$jp[3]?></td>
+                    <td><?=$ga[3]?></td>
+                    <td><?=$gc[3]?></td>
+                    <td><?=$dif[3]?></td>
+                    
+                    </tr>
+                    <tr>
+                    <td>
+                        <img src="Imagenes/Continente_Equipos/America/Estados Unidos/Bandera Estados Unidos.png" />
+                    </td>
+                    <td>Estados Unidos</td>
                     <td><?=$puntos[0]?></td>
                     <td><?=$jj[0]?></td>
                     <td><?=$jg[0]?></td>
@@ -178,9 +208,9 @@
                     </tr>
                     <tr>
                     <td>
-                    <img src="../Imagenes/Continente_Equipos/Asia/Irán/Bandera Irán.png" />
+                        <img src="Imagenes/Continente_Equipos/Europa/Gales/Bandera Gales.png" />
                     </td>
-                    <td>Irán</td>
+                    <td>Gales</td>
                     <td><?=$puntos[1]?></td>
                     <td><?=$jj[1]?></td>
                     <td><?=$jg[1]?></td>
@@ -189,36 +219,6 @@
                     <td><?=$ga[1]?></td>
                     <td><?=$gc[1]?></td>
                     <td><?=$dif[1]?></td>
-                    
-                    </tr>
-                    <tr>
-                    <td>
-                        <img src="../Imagenes/Continente_Equipos/America/Estados Unidos/Bandera Estados Unidos.png" />
-                    </td>
-                    <td>Estados Unidos</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    
-                    </tr>
-                    <tr>
-                    <td>
-                        <img src="../Imagenes/Continente_Equipos/Europa/Gales/Bandera Gales.png" />
-                    </td>
-                    <td>Gales</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
                     
                     </tr>
                     

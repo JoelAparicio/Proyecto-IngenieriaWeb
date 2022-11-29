@@ -301,7 +301,20 @@ while($reg=mysqli_fetch_array($registro)){
             <h1><?php echo $pais ?></h1>
         </div>
         <div>
-            <button class="boton-favorito-usuario" name="btnFavorito" type="submit" id="btnFavorito" onclick="location.href='Agregar_Favorito.php?cod_equipo=<?php echo $pais?>'"><img src="..\Imagenes\Otros\Estrella_Fav.png"></button>
+        <?php
+            //recupera el codigo del equipo
+            $sql2 = "SELECT * FROM usuarios WHERE usuario = '$usuario'";
+            $result2 = mysqli_query($conn, $sql2);
+            $row2 = mysqli_fetch_assoc($result2);
+            $favorito = $row2['favorito'];
+
+            if($favorito == $pais){
+                echo "<a href='Quitar_Favorito.php?pais=$pais'><img src='../Imagenes/Otros/estrella.png' id='estrella'></a>";
+            }
+            else{
+                echo "<a href='Agregar_Favorito.php?pais=$pais'><img src='../Imagenes/Otros/estrella_vacia.png' id='estrella'></a>";
+            }
+        ?>
         </div>    
     </div>
 

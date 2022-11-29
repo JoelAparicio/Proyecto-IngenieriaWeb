@@ -796,12 +796,14 @@ footer{
   width: auto;
   background:none;
   border: none;
-  color: white;
   margin: 0px;
 }
 .boton-favorito-usuario img{
   width: 40px;
   height: auto;
+}
+.boton-favorito-usuario:hover{
+  cursor: pointer;
 }
 
 .logros-barra{

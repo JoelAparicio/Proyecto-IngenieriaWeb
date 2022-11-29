@@ -471,20 +471,18 @@ footer{
 .body-clas{
   background-image: url("Imagenes/Otros/fondo1.jpg");
   opacity: 100%; 
+  background-size: cover;
   object-fit: cover;
 
 }
 .contenedor-principal{
   position: block;
-  overflow: hidden;
+  
   width: 120px;
-  height:120px;
+  
   height: 130vh;
   
 }
-
-
-
 
   .Ronda16-Izquierda{
     position: relative;
@@ -492,12 +490,12 @@ footer{
   }
 
     #Iarriba{
-      top: 5em;
-      left: 7em;
+      top: 2em;
+      left: 1.3em;
     }
     #Iabajo{
       top: 30em;
-      left: 7em;
+      left: 1.3em;
     }
 
   .Ronda16-Derecha{
@@ -506,29 +504,29 @@ footer{
   }
 
     #Darriba{
-      top: 05em;
-      left: 90em;
+      top: 2em;
+      left: 70.5em;
       
     }
 
     #Dabajo{
       top: 30em;
-      left:90em;
+      left:70.5em;
       
     }
 
 .contenedor{
   text-align: center;
-  border: 0.2em solid #a3053f;
-  width: 10em;
-  padding: 0.5em;
-  border-radius: 1em;
+  border: 0.1em solid #a3053f;
+  width: 8em;
+  padding: 0.2em;
+  border-radius: 0.5em;
   background-color: #ffffff;
   z-index: 2;
 }
 
   .contenedor p{
-    margin: 1em 0em 0em 0em;
+    margin: 0.5em 0em 0em 0em;
     font-size: 90%;
     font-family: "Segoe UI";
     color: #a3053f;
@@ -537,8 +535,8 @@ footer{
 
   .contenedor h1{
     margin: 0em;
-    padding: 0em 0em 0.3em 0em;
-    font-size: 2em;
+    padding: 0em 0em 0.1em 0em;
+    font-size: 1em;
     text-align: center;
     font-family: "Segoe UI";
     color: #a3053f;
@@ -547,59 +545,59 @@ footer{
 
   #posicion1{
     position: absolute;
-    left: 0.6em;
+    left: 0.3em;
     top: 1em;
 
   }
 
   #Iposicion2{
     position: absolute;
-    left: 10em;
-    top: 9.3em;
+    left: 9em;
+    top: 7.1em;
 
     
   }
 
   #Dposicion2{
     position: absolute;
-    left: -12.5em;
-    top: 9.3em;
+    left: -8.5em;
+    top: 7.1em;
 
     
   }
 
   #posicion3{
     position: absolute;
-    left: 0.6em;
-    top: 17.5em;
+    left: 0.3em;
+    top: 13em;
     
   }
 
   #Cposicion1{
     position: absolute;
-    left: 46.5em;
-    top: 22em;
+    left: 35.8em;
+    top: 20.1em;
 
   }
 
   #Cposicion2{
     position: absolute;
-    left: 30em;
-    top: 35em;
+    left: 19.8em;
+    top: 32em;
 
     
   }
 
   #Cposicion3{
     position: absolute;
-    left: 64.4em;
-    top: 35em;
+    left: 51.9em;
+    top: 32em;
   }
 
   #Cposicion4{
     position: absolute;
-    left: 46.5em;
-    top: 50em;
+    left: 35.8em;
+    top: 40.2em;
   }
 
 .tabla{
@@ -609,8 +607,8 @@ footer{
 }
 
   .tabla td{
-    width: 3em;
-    height: 1em;
+    width: 1.5em;
+    height: 0.5em;
     font-size: 200%;
     border-radius: 0.5em;
     border: 0em 0.1em 0em 0.1em;
@@ -619,12 +617,12 @@ footer{
   #entrada{
     border:solid #c60049;
     color: #c60049;
-    margin: 0.5em 0em 0em 0em;
+    margin: 0.2em 0em 0em 0em;
   }
 
   .tabla img{
-    width: 1.5vw;
-    height: 2vh;
+    width: 2vw;
+    height: 2.5vh;
     object-fit: fill;
   }
 
@@ -633,11 +631,11 @@ footer{
   border: solid#c60049 ;
   border-radius: 0.5em;
   border-width: 0.3em 0.3em 0.3em 0em;
-  width: 10em;
-  height: 16em;
+  width: 5em;
+  height: 11.7em;
   z-index: 1;
-  top: 3em;
-  left: 5.5em;
+  top: 2.9em;
+  left: 8.1em;
 }
 
 #Linea-der{
@@ -645,11 +643,11 @@ footer{
   border-radius:  0.5em;
   border: solid#c60049 ;
   border-width: 0.3em 0em 0.3em 0.3em;
-  width: 10em;
-  height: 16em;
+  width: 5em;
+  height: 11.7em;
   z-index: 1;
-  top: 4em;
-  left: -6em;
+  top: 2.9em;
+  left: -4.3em;
 }
 
 #Linea-izq-centro{
@@ -657,11 +655,11 @@ footer{
   border-radius:  0.5em;
   border: solid#c60049 ;
   border-width: 0.3em 0.3em 0.3em 0em;
-  width: 11.5em;
-  height: 24.5em;
+  width: 5.5em;
+  height: 27.7em;
   z-index: 1;
-  top: 25.3em;
-  left: 25em;
+  top: 20em;
+  left: 18.5em;
 }
 
 #Linea-der-centro{
@@ -669,11 +667,11 @@ footer{
   border-radius:  0.5em;
   border: solid#c60049 ;
   border-width: 0.3em 0em 0.3em 0.3em;
-  width: 15em;
-  height: 24.5em;
+  width: 7em;
+  height: 27.7em;
   z-index: 1;
-  top: 25.3em;
-  left: 70em;
+  top: 20em;
+  left: 56em;
 }
 
 #Linea-1{
@@ -681,11 +679,11 @@ footer{
   border-radius: 0.5em ;
   border: solid#c60049 ;
   border-width: 0em  0em  0.3em  0em ;
-  width: 30em;
+  width: 25em;
   height: 0em;
   z-index: 1;
-  top: 37.7em;
-  left: 35em;
+  top: 33.8em;
+  left: 27.8em;
 }
 
 #Linea-2{
@@ -694,10 +692,10 @@ footer{
   border: solid#c60049;
   border-width: 0em  0em  0em  0.3em ;
   width: 0em;
-  height: 25em;
+  height: 16em;
   z-index: 1;
   top: 25em;
-  left: 52em;
+  left: 40em;
 }
 
 #Bandera p{
@@ -878,16 +876,7 @@ footer{
   background-color: white;
   color:rgb(0, 0, 0);
 }
-
-/*Favoritos*/
-#Favoritos{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-  padding: 5px;
-}
-/*Favoritos*/
+/*Registro PHP*/
 
 
 /*Resultado-Usuario*/
@@ -907,7 +896,6 @@ footer{
 }
 
 .fecha_1{
-  
   padding:10px;
 }
 
@@ -1031,3 +1019,16 @@ footer{
   justify-self: center;
 }
 /*Resultado-Usuario*/
+
+
+/*Favoritos*/
+
+.fav-h1{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10%; 
+}
+
+
+
+/*Favoritos*/

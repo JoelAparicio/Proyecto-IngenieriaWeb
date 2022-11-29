@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="../index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <?php
@@ -14,7 +14,7 @@
     ?>
     <header>
         <div>
-        <img src="../../Imagenes/Otros/logo.png" id="encabezado-logo">
+        <img src=..\Imagenes/Otros/logo.png" id="encabezado-logo">
         </div>
         <nav>
             <ul  class="menu">
@@ -67,41 +67,41 @@
 
         <div class="enfrentamiento-inicio">
             <div class="equipo-inicio">
-                <img src="Imagenes\Continente_Equipos\America\Uruguay\Bandera Uruguay.png" alt="Uruguay" class="bandera-inicio">
+                <img src="..\Imagenes\Continente_Equipos\America\Uruguay\Bandera Uruguay.png" alt="Uruguay" class="bandera-inicio">
                 <h1>2</h1>
             </div>
             <div id="equipo-inicio-vs">
                 <p>VS</p>
             </div>
             <div class="equipo-inicio">
-                <img src="Imagenes\Continente_Equipos\Europa\Portugal\Bandera Portugal.png" alt="Portugal" class="bandera-inicio">
+                <img src="..\Imagenes\Continente_Equipos\Europa\Portugal\Bandera Portugal.png" alt="Portugal" class="bandera-inicio">
                 <h1>3</h1>
             </div>
         </div>
         <div class="info-inicio">
             <div class="info-inicio-1">
                 <div class="info-inicio-contenido">
-                    <img src="Imagenes\Continente_Equipos\America\Uruguay\Uniforme Uruguay.png" class="Uniforme-inicio">
+                    <img src="..\Imagenes\Continente_Equipos\America\Uruguay\Uniforme Uruguay.png" class="Uniforme-inicio">
                     <p>Fede Valverde 3'</p>
                 </div>
                 <div class="info-inicio-contenido">
-                    <img src="Imagenes\Continente_Equipos\America\Uruguay\Uniforme Uruguay.png" class="Uniforme-inicio">
+                    <img src="..\Imagenes\Continente_Equipos\America\Uruguay\Uniforme Uruguay.png" class="Uniforme-inicio">
                     <p>Darwin Nuñez  27'</p>
                 </div>
             </div>
             <div class="info-inicio-2">
                 <div class="info-inicio-contenido">
                     <p>Bruno Fernandes 11'</p>
-                    <img src="Imagenes\Continente_Equipos\Europa\Portugal\Uniforme Portugal.png" class="Uniforme-inicio">
+                    <img src="..\Imagenes\Continente_Equipos\Europa\Portugal\Uniforme Portugal.png" class="Uniforme-inicio">
                     
                 </div>
                 <div class="info-inicio-contenido">
                     <p>Cristiano Ronaldo 60'</p>
-                    <img src="Imagenes\Continente_Equipos\Europa\Portugal\Uniforme Portugal.png" class="Uniforme-inicio">
+                    <img src="..\Imagenes\Continente_Equipos\Europa\Portugal\Uniforme Portugal.png" class="Uniforme-inicio">
                 </div>
                 <div class="info-inicio-contenido">
                     <p>Cristiano Ronaldo (p) 92'</p>
-                    <img src="Imagenes\Continente_Equipos\Europa\Portugal\Uniforme Portugal.png" class="Uniforme-inicio">
+                    <img src="..\Imagenes\Continente_Equipos\Europa\Portugal\Uniforme Portugal.png" class="Uniforme-inicio">
                 </div>
             </div>
         </div> 

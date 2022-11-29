@@ -1,3 +1,38 @@
+<?php
+include ("../proyecto-ingenieriaweb/Conexion.php");
+
+if(isset($_GET['camerun'])) {
+    $pais="Camerun";
+}
+if(isset($_GET['ghana'])) {
+    $pais="Ghana";
+}
+
+//recupera el codigo del equipo
+$sql = "SELECT * FROM equipos WHERE pais = '$pais'";
+$result = mysqli_query($conn, $sql);
+$row = mysqli_fetch_assoc($result);
+$cod_equipo = $row['cod_equipo'];
+$logro = $row['logro'];
+
+
+//Array para guardar los nombres de los jugadores
+$Nombre=array();
+//Array para guardar los apellidos de los jugadores
+$Apellido=array();
+//Variable de incremento
+$i=0;
+
+//recuperar los datos de la tabla jugadores de la base de datos
+$consulta="SELECT * FROM equipos WHERE pais='$cod_equipo'";
+$registro=mysqli_query($conexion,$consulta);
+while($reg=mysqli_fetch_array($registro)){
+    $Nombre[$i]=$reg['nombre'];
+    $Apellido[$i]=$reg['apellido'];
+    $i++;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,6 +71,10 @@
         </div>
         <div>
             <h1>Camerún</h1>
+        </div>
+        <div>
+            {!! Form::checkbox('super', true, null, ['class' => 'super-user-check']) !!}
+            <i class="fa fa-star super-user-icon" aria-hidden="true"></i>
         </div>
     </div>
 </body>

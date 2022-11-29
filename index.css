@@ -1056,7 +1056,7 @@ footer{
   padding: 2em;
 
 }
-  .Tabla_posiciones h1,p{
+  .Tabla_posiciones h1{
     width:400px;
     margin:35px auto;
     text-align:center;
@@ -1064,9 +1064,12 @@ footer{
   }
   .Tabla_posiciones p{
     width:500px;
+    margin:35px auto;
+    text-align:center;
+    color:#8C0335;
   }
   .Tabla_posiciones table{
-    width:720px;
+    width:600px;
     margin:0 auto;
     color:rgb(70, 4, 4);
     text-align:center;

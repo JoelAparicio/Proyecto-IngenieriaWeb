@@ -1,5 +1,5 @@
 <?php
-include('../Conexion.php');
+include('Conexion.php');
 
 if(isset($_POST['enviar-ficha'])){
     $dia = $_POST['day'];

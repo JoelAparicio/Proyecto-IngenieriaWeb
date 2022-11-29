@@ -7,7 +7,7 @@
     <title>Clasificacion-Admin</title>
     <link href="../index.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body class="body-clas">
     <?php
     session_start(); 
     $usuario = $_SESSION['usuario'];

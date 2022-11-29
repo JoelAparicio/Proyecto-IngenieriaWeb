@@ -87,12 +87,13 @@
         </div>
 
         <div class="resultados-h1">
-            <h1>Fichas</h1>
+            <h1>Fichas de partidos</h1>
         </div>
 
     </div>
-
-    </div>
+    <?php
+    include('Ficha_code_vis.php')
+    ?>
     <footer>
         <div class="footer">
             <div class="footer-izquierda">

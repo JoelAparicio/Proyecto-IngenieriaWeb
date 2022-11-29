@@ -50,33 +50,25 @@ $favorito = $row2['favorito'];
 
     <?php
     if($favorito == null){
-        echo "No hay favoritos";
+        ?>
+        <div class="ficha-cuadro">
+            <h3>No tienes equipos favoritos</h3>
+        </div>
+        <?php
     }
     else{
-    //Array de favoritos
-    $equipo_1=array();
-    $equipo_2=array();
-    $goles_1=array();
-    $goles_2=array();
-    $fecha=array();
-    $hora=array();
-    $estadio=array();
-    $grupo=array();
-    $i=0;
-
-
+    
     $consulta="SELECT * FROM resultados WHERE equipo_1='$favorito' OR equipo_2='$favorito'";
     $registro=mysqli_query($conn,$consulta);
-    while($reg=mysqli_fetch_array($registro)){
-        $equipo_1[$i]=$reg['equipo_1'];
-        $equipo_2[$i]=$reg['equipo_2'];
-        $goles_1 [$i]= $reg['goles_1'];
-        $goles_2 [$i]= $reg['goles_2'];
-        $fecha [$i]= $reg['fecha'];
-        $hora [$i]= $reg['hora'];
-        $estadio[$i] = $reg['estadio'];
-        $grupo[$i] = $reg['grupo'];
-        $i++;
+    while($row=mysqli_fetch_array($registro)){
+            $equipo_1 = $row['equipo_1'];
+            $equipo_2 = $row['equipo_2'];
+            $goles_1 = $row['goles_1'];
+            $goles_2 = $row['goles_2'];
+            $fecha = $row['fecha'];
+            $hora = $row['hora'];
+            $estadio = $row['estadio'];
+            $grupo = $row['grupo'];
     
     ?>
     <div class="ficha-cuadro">

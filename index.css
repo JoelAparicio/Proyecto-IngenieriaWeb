@@ -390,7 +390,12 @@ footer{
   bottom:0px;
   
 }
-.footer a, h2{
+.footer a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Segoe UI";
+}
+.footer h2{
   text-decoration: none;
   color: #fff;
   font-family: "Segoe UI";
@@ -470,7 +475,7 @@ footer{
 /*Clasificacion*/
 
 .body-clas{
-  background-image: url("../Imagenes/Otros/fondo1.jpg");
+  background-image: url("Imagenes/Otros/fondo1.jpg");
   opacity: 100%; 
   background-size: cover;
   object-fit: cover;
@@ -992,9 +997,17 @@ footer{
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 5%;
+  margin-bottom: 9.8%;
   background: linear-gradient(145deg, #8C0335, #b91b55);
   box-shadow: inset 9.91px 9.91px 15px #b40445, inset -9.91px -9.91px 15px #cd2563;
   
+}
+.ficha-cuadro h3{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+
 }
 .ficha-grid{
   display: grid;

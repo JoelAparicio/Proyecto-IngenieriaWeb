@@ -43,7 +43,7 @@
                 <img src="../Imagenes/Continentes/Africa.png">
             </div>
             <div class="Continente-Banderas"> 
-                <div id="Bandera"> <a href="equipo_usuario.php?camerun=yes">
+                <div id="Bandera"> <a href="equipo_usuario.php?Camerún=yes">
                     <img src="../Imagenes/Continente_Equipos/Africa/Camerún/Bandera Camerún.png">
                     <p>Camerún</p></a>
                 </div>
@@ -59,7 +59,7 @@
                     <img src="../Imagenes/Continente_Equipos/Africa/Senegal/Bandera Senegal.png">
                     <p>Senegal</p> </a>
                 </div>
-                <div id="Bandera"> <a href="equipo_usuario.php?Tunez=yes">
+                <div id="Bandera"> <a href="equipo_usuario.php?Túnez=yes">
                     <img src="../Imagenes/Continente_Equipos/Africa/Túnez/Bandera Túnez.png">
                     <p>Túnez</p> </a>
                 </div>
@@ -68,7 +68,7 @@
         <hr style="color: black; background-color: black; width:75%;" /> 
         <div class="Continente"> 
             <div class="Continente-mapa"> 
-                <h2>Americá</h2>
+                <h2>América</h2>
                 <img src="../Imagenes/Continentes/América.png">
             </div>
             <div class="Continente-Banderas"> 
@@ -80,7 +80,7 @@
                     <img src="../Imagenes/Continente_Equipos/America/Brazil/Bandera Brazil.png">
                     <p>Brazil</p></a>
                 </div>
-                <div id="Bandera"> <a href="equipo_usuario.php?Canada=yes">
+                <div id="Bandera"> <a href="equipo_usuario.php?Canadá=yes">
                     <img src="../Imagenes/Continente_Equipos/America/Canadá/Bandera Canadá.png">
                     <p>Canadá</p></a>
                 </div>
@@ -96,7 +96,7 @@
                     <img src="../Imagenes/Continente_Equipos/America/Estados Unidos/Bandera Estados Unidos.png">
                     <p>Estados Unidos</p> </a>
                 </div>
-                <div id="Bandera"> <a href="equipo_usuario.php?Mexico=yes">
+                <div id="Bandera"> <a href="equipo_usuario.php?México=yes">
                     <img src="../Imagenes/Continente_Equipos/America/México/Bandera México.png">
                     <p>México</p> </a>
                 </div>
@@ -121,11 +121,11 @@
                     <img src="../Imagenes/Continente_Equipos/Asia/Corea del Sur/Bandera Corea del Sur.png">
                     <p>Corea del Sur</p></a>
                 </div>
-                <div id="Bandera"> <a href="equipo_usuario.php?IRIran=yes">
+                <div id="Bandera"> <a href="equipo_usuario.php?IRIrán=yes">
                     <img src="../Imagenes/Continente_Equipos/Asia/Irán/Bandera Irán.png">
                     <p>Irán</p></a>
                 </div>
-                <div id="Bandera"> <a href="equipo_usuario.php?Japon=yes">
+                <div id="Bandera"> <a href="equipo_usuario.php?Japón=yes">
                     <img src="../Imagenes/Continente_Equipos/Asia/Japón/Bandera Japón.png">
                     <p>Japón</p> </a>
                 </div>
@@ -146,7 +146,7 @@
                     <img src="../Imagenes/Continente_Equipos/Europa/Alemania/Bandera Alemania.png">
                     <p>Alemania</p></a>
                 </div>
-                <div id="Bandera"> <a href="equipo_usuario.php?Belgica=yes">
+                <div id="Bandera"> <a href="equipo_usuario.php?Bélgica=yes">
                     <img src="../Imagenes/Continente_Equipos/Europa/Bélgica/Bandera Bélgica.png">
                     <p>Bélgica</p></a>
                 </div>
@@ -174,7 +174,7 @@
                     <img src="../Imagenes/Continente_Equipos/Europa/Inglaterra/Bandera Inglaterra.png">
                     <p>Inglaterra</p> </a>
                 </div>
-                <div id="Bandera"> <a href="equipo_usuario.php?PaisesBajos=yes">
+                <div id="Bandera"> <a href="equipo_usuario.php?PaísesBajos=yes">
                     <img src="../Imagenes/Continente_Equipos/Europa/Países Bajos/Bandera Países Bajos.png">
                     <p>Países Bajos</p> </a>
                 </div>

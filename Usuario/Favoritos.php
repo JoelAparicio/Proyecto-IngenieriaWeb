@@ -1,3 +1,17 @@
+<?php
+include('../Conexion.php');
+
+session_start(); 
+$usuario = $_SESSION['usuario'];
+
+$sql2 = "SELECT * FROM usuarios WHERE usuario = '$usuario'";
+$result2 = mysqli_query($conn, $sql2);
+$row2 = mysqli_fetch_assoc($result2);
+$favorito = $row2['favorito'];
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +22,6 @@
     <link href="../index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <?php
-    session_start(); 
-    $usuario = $_SESSION['usuario'];
-    ?>
     <header>
         <div>
         <img src="../Imagenes/Otros/logo.png" id="encabezado-logo">
@@ -32,12 +42,22 @@
             </ul>
         </nav>
     </header>
-    <div id="Favoritos"> <a href="">
-        <img src="../Imagenes/Continente_Equipos/America/Brazil/Bandera Brazil.png">
-        </a>
-        <h1>Brasil</h1>
-        <p>Descripción del equipo</p>
-    </div>
+
+    
+        <div class="fav-h1">
+            <h1>Favoritos</h1>
+        </div>
+
+        <?php
+        if($favorito == null){
+            echo "No hay favoritos";
+        }
+        ?>
+
+
+
+
+
     <footer>
         <div class="footer">
             <div class="footer-izquierda">

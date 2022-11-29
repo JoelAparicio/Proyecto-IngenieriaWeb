@@ -11,13 +11,13 @@ elseif(isset($_GET['Ecuador'])) {
 elseif(isset($_GET['Senegal'])) {
     $pais="Senegal";
 }
-elseif(isset($_GET['PaisesBajos'])) {
+elseif(isset($_GET['PaísesBajos'])) {
     $pais="Países Bajos";
 }
 elseif(isset($_GET['Inglaterra'])) {
     $pais="Inglaterra";
 }
-elseif(isset($_GET['IRIran'])) {
+elseif(isset($_GET['IRIrán'])) {
     $pais="IR Irán";
 }
 elseif(isset($_GET['EstadosUnidos'])) {
@@ -32,7 +32,7 @@ elseif(isset($_GET['Argentina'])) {
 elseif(isset($_GET['SaudiArabia'])) {
     $pais="Saudi Arabia";
 }
-elseif(isset($_GET['Mexico'])) {
+elseif(isset($_GET['México'])) {
     $pais="México";
 }
 elseif(isset($_GET['Polonia'])) {
@@ -47,7 +47,7 @@ elseif(isset($_GET['Australia'])) {
 elseif(isset($_GET['Dinamarca'])) {
     $pais="Dinamarca";
 }
-elseif(isset($_GET['Tunez'])) {
+elseif(isset($_GET['Túnez'])) {
     $pais="Túnez";
 }
 elseif(isset($_GET['España'])) {
@@ -59,13 +59,13 @@ elseif(isset($_GET['CostaRica'])) {
 elseif(isset($_GET['Alemania'])) {
     $pais="Alemania";
 }
-elseif(isset($_GET['Japon'])) {
+elseif(isset($_GET['Japón'])) {
     $pais="Japón";
 }
-elseif(isset($_GET['Belgica'])) {
+elseif(isset($_GET['Bélgica'])) {
     $pais="Bélgica";
 }
-elseif(isset($_GET['Canada'])) {
+elseif(isset($_GET['Canadá'])) {
     $pais="Canadá";
 }
 elseif(isset($_GET['Marruecos'])) {
@@ -83,7 +83,7 @@ elseif(isset($_GET['Serbia'])) {
 elseif(isset($_GET['Suiza'])) {
     $pais="Suiza";
 }
-elseif(isset($_GET['camerun'])) {
+elseif(isset($_GET['Camerún'])) {
     $pais="Camerún";
 }
 elseif(isset($_GET['Portugal'])) {
@@ -300,19 +300,19 @@ while($reg=mysqli_fetch_array($registro)){
         <div>
             <h1><?php echo $pais ?></h1>
         </div>
-        <div>
+        <div class="boton-favorito-usuario">
         <?php
-            //recupera el codigo del equipo
+            //mira en la base de datos si tiene un favorito, y si lo tiene manda una u otra forma del boton de favorito
             $sql2 = "SELECT * FROM usuarios WHERE usuario = '$usuario'";
             $result2 = mysqli_query($conn, $sql2);
             $row2 = mysqli_fetch_assoc($result2);
             $favorito = $row2['favorito'];
 
             if($favorito == $pais){
-                echo "<a href='Quitar_Favorito.php?pais=$pais'><img src='../Imagenes/Otros/Estrella_C.png' id='estrella'></a>";
+                echo "<a href='Quitar_Favorito.php?pais=".$pais."'><img src='../Imagenes/Otros/Estrella_C.png' id='estrella'></a>";
             }
             else{
-                echo "<a href='Agregar_Favorito.php?pais=$pais'><img src='../Imagenes/Otros/Estrella_S.png' id='estrella'></a>";
+                echo "<a href='Agregar_Favorito.php?pais=".$pais."'><img src='../Imagenes/Otros/Estrella_S.png' id='estrella'></a>";
             }
         ?>
         </div>    

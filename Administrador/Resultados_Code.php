@@ -1,6 +1,5 @@
 <?php
 include('../Conexion.php');
-
 if(isset($_POST['enviar-resultados'])){
     if ($_POST['goles_1'] >= 0 AND $_POST['goles_2'] >= 0){
         $grupo_resultado = $_POST['grupo_resultado'];
@@ -27,6 +26,10 @@ if(isset($_POST['enviar-resultados'])){
             <?php
         }
 
+    } elseif ($_POST['fecha'] != 12/10/2022 OR $_POST['fecha'] != 11/10/2022) {
+        ?>
+        <h3 class="resultados-error">¡Ups, esa no es la fecha del mundial!</h3>
+        <?php
     } else{
         ?>
         <h3 class="resultados-error">¡Ups, no pueden haber goles negativos!</h3>

@@ -1123,6 +1123,7 @@ footer{
   grid-template-columns: 1fr 1fr;
   gap: 1em;
   font-family:'Segoe UI';
+  
 }
 
 .Titulo_tabla_posiciones h1{
@@ -1197,3 +1198,5 @@ footer{
     color:#fff1f1;
     background-color:#a00b42;
   }
+
+

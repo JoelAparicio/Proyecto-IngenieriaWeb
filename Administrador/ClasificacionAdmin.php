@@ -39,7 +39,7 @@
                 <table class="tabla">
                     <tr>
 
-                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
+                        <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
                         <td id="entrada">0</td>
 
@@ -47,7 +47,7 @@
 
                         <td id="entrada">0</td>
 
-                        <td><img src="Imagenes/Otros/Bandera-default.png"></td>
+                        <td><img src="../Imagenes/Otros/Bandera-default.png"></td>
 
                     </tr>
                 </table>

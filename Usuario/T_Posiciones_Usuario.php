@@ -180,7 +180,7 @@
                     </tr>
                     <tr>
                     <td>
-                    <img src="Imagenes/Continente_Equipos/Asia/Irán/Bandera Irán.png" />
+                    <img src="../Imagenes/Continente_Equipos/Asia/Irán/Bandera Irán.png" />
                     </td>
                     <td>Irán</td>
                     <td><?=$puntos[3]?></td>
@@ -195,7 +195,7 @@
                     </tr>
                     <tr>
                     <td>
-                        <img src="Imagenes/Continente_Equipos/America/Estados Unidos/Bandera Estados Unidos.png" />
+                        <img src="../Imagenes/Continente_Equipos/America/Estados Unidos/Bandera Estados Unidos.png" />
                     </td>
                     <td>Estados Unidos</td>
                     <td><?=$puntos[0]?></td>
@@ -210,7 +210,7 @@
                     </tr>
                     <tr>
                     <td>
-                        <img src="Imagenes/Continente_Equipos/Europa/Gales/Bandera Gales.png" />
+                        <img src="../Imagenes/Continente_Equipos/Europa/Gales/Bandera Gales.png" />
                     </td>
                     <td>Gales</td>
                     <td><?=$puntos[1]?></td>

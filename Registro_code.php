@@ -1,5 +1,6 @@
 <?php
 include ("Conexion.php");
+$conn = conexion();
 if(isset($_POST['registrar'])){
     if (strlen($_POST['password-registro']) > 4) {
         $usuario = trim($_POST['usuario-registro']);

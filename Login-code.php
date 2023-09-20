@@ -1,5 +1,5 @@
 <?php
-include ("Conexion.php");
+include ('Conexion.php');
 if(isset($_POST['inicio-sesion'])){
     $usuario = $_POST['usuario-login'];
     $password = $_POST['password-login'];

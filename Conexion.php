@@ -1,11 +1,10 @@
 <?php
-function conexion(){
     $servidor = "localhost";
-    $basedatos = "pagina_futbol";
+    $basedatos = "mundialqatar";
     $user = "root";
-    $password = "1234";
-    $conn = mysqli_connect($servidor, $user, $password, $basedatos) or die ("Error al conectar con la base de datos".mysqli_connect_error());
-    mysqli_select_db($conn, $basedatos);
-    return $conn;
+    $password = "";
+    $conn = mysqli_connect($servidor, $user, $password, $basedatos);
+    if (!$conn) {
+        die("Conexión fallida: " . mysqli_connect_error());
     }
 ?>

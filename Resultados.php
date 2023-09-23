@@ -76,13 +76,12 @@
             <div class=fecha_1>
                 <label for="month">Mes:</label>
                     <select class="seleccionar" id="month" name="month">
-                        <option value="0">Seleccionar Fecha</option>
                         <option value="11">Noviembre</option>
                         <option value="12">Diciembre</option>
                     </select> <br><br>
             </div>
 
-            <INPUT class="boton_resultados" TYPE="submit" name="enviar-ficha" value="Buscar">
+            <INPUT class="boton_resultados" TYPE="submit" name="enviar-ficha" value="Obtener">
 
         </form>
         </div>
